@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="./css/page.css" rel="stylesheet" type="text/css"/> 
+<script src="./js/esl.js" type="text/javascript"></script>
+<script src="./js/option.js" type="text/javascript"></script>
+
+<script src="./js/tab.js" type="text/javascript"></script>
+
+</head>
+
+
+<body>
+<!--Start of the Tabmenu 1 -->
+<div id ="select" >
+<div id ="smenu">
+	<ul>
+    	<li><a href="./index.html" target="_blank">首页</a></li>
+        <li><a href="./datazoom1.jsp" target="_blank">价格走势</a></li>
+        <li><a href="./form.jsp" target="_blank">价格对比</a></li>
+        <li><a href="./pie7.jsp" target="_blank">CPI比例</a></li>
+        <li><a href="./map2.jsp" target="_blank">全国商品价格</a></li>
+        <li><a href="./form2.jsp" target="_blank">居民消费指数</a></li>
+        <li><a href="./map11.jsp" target="_blank">商品进出口</a></li>
+        <li><a href="./map9.jsp" target="_blank">各农作物产地</a></li>
+        <li><a href="#" target="_blank">价格预测</a></li>
+    </ul>
+</div>
+</div>
+<a href="#" onmousedown="stop_autochange(); return false;">Stop the Change</a> | <a href="#" onmousedown="restart_autochange(); return false;">Restart (if stopped)</a>
+<div class="menu">
+<ul>
+<li><a href="#" onclick="easytabs('1', '1');" onfocus="easytabs('1', '1');"   title="" id="tablink1">Tab 1</a></li>
+<li><a href="#" onclick="easytabs('1', '2');" onfocus="easytabs('1', '2');"   title="" id="tablink2">Tab 2 </a></li>
+<li><a href="#" onclick="easytabs('1', '3');" onfocus="easytabs('1', '3');"   title="" id="tablink3">Tab 3 </a></li>
+<li><a href="#" onclick="easytabs('1', '4');" onfocus="easytabs('1', '4');"   title="" id="tablink4">Tab 4 </a>
+</li>
+</ul>
+</div>
+<!--End of the Tabmenu 1 -->
+
+
+<!--Start Tabcontent 1 -->
+<div id="tabcontent1">Tabcontent 1
+<div style="height:350px;"><a href="./map9.jsp"><img src="img/pic1.png" title="打开链接" height="350px"></img></a></div>
+</div>
+<!--End Tabcontent 1-->
+
+<!--Start Tabcontent 2-->
+<div id="tabcontent2">Tabcontent 2
+<div style="height:350px;"><a href="./map11.jsp"><img src="img/pic2.png" title="打开链接" height="350px"></img></a></div>
+</div>
+<!--End Tabcontent 2 -->
+
+<!--Start Tabcontent 3-->
+<div id="tabcontent3">Tabcontent 3
+<div style="height:350px;"><a href="./form2.jsp"><img src="img/pic3.png" title="打开链接" height="350px"></img></a></div>
+</div>
+<!--End Tabcontent 3-->
+
+<!--Start Tabcontent 4-->
+<div id="tabcontent4">Tabcontent 4
+<div style="height:350px;"><a href="./map2.jsp"><img src="img/pic4.png" title="打开链接" height="350px"></img></a></div>
+</div>
+<!--End Tabcontent 4-->
+
+
+<br/><br/>
+
+<!--Start of the Tabmenu 2 -->
+<div class="menu">
+<ul>
+<li><a href="#" onmouseover="easytabs('2', '1');"  onfocus="easytabs('2', '1');"  title="" id="anotherlink1">各商品每日价格</a></li>
+<li><a href="#" onmouseover="easytabs('2', '2');" onfocus="easytabs('2', '2');"   title="" id="anotherlink2">八大类对CPI整体的影响</a></li>
+<li><a href="#" onmouseover="easytabs('2', '3');" onfocus="easytabs('2', '3');"   title="" id="anotherlink3">各商品CPI</a></li>
+<li><a href="#" onmouseover="easytabs('2', '4');" onfocus="easytabs('2', '4');"  title="" id="anotherlink4">主要商品进出口</a></li>
+<li><a href="#" onmouseover="easytabs('2', '5');" onfocus="easytabs('2', '5');"  title="" id="anotherlink5">全国商品价格</a></li>
+<li><a href="#" onmouseover="easytabs('2', '6');" onfocus="easytabs('2', '6');"  title="" id="anotherlink6">全国农作物产地</a></li>
+</ul>
+</div>
+<!--End of the Tabmenu 2 -->
+
+
+<!--Start Tabcontent 1 -->
+<div id="anothercontent1" style="height: 150px">
+这里展示的是超市每日各商品的价格的对比<br/>
+
+<a href="./form.jsp" rel="price" target="_blank">点击这里查看详细</a>
+</div>
+<!--End Tabcontent 1-->
+
+<!--Start Tabcontent 2-->
+<div id="anothercontent2"  style="height: 150px">
+这里展现的是八大类对整体CPI的一个影响<br/>
+<a href="./pie7.jsp" rel="price" target="_blank">点击这里查看详细</a>
+</div>
+<!--End Tabcontent 2 -->
+
+<!--Start Tabcontent 3-->
+<div id="anothercontent3"  style="height: 150px">
+这里目前展示的是2014年各商品CPI<br/>
+<a href="./bar2.jsp" rel="price" target="_blank">点击这里查看详细</a>
+</div>
+<!--End Tabcontent 3-->
+
+<!--Start Tabcontent 4-->
+<div id="anothercontent4"  style="height: 150px">
+这里主要展示的是各商品进出口情况<br/>
+<a href="./map11.jsp" rel="price" target="_blank">点击这里查看详细</a>
+</div>
+<!--End Tabcontent 4-->
+
+<!--Start Tabcontent 5-->
+<div id="anothercontent5"  style="height: 150px">
+这里通过热力图的方式展现全国各商品的价格的高低<br/>
+<a href="./map2.jsp" rel="price" target="_blank">点击这里查看详细</a>
+</div>
+<!--End Tabcontent 5-->
+
+<!--Start Tabcontent 6-->
+<div id="anothercontent6"  style="height: 150px">
+这里展示了全国农作物产地</br>
+<a href="./map9.jsp" rel="price" target="_blank">点击这里查看详细</a>
+</div>
+<!--End Tabcontent 6-->
+
+
+
+ 
+</body>
+</html>
