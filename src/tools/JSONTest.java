@@ -174,5 +174,27 @@ public class JSONTest {
 		}
     	return cpi;	
     }
+    //查询月度居民消费指数
+    public double[] SelectMonthCPI(int n){
+    	DBConn dbConn =new DBConn();
+    	double []cpi=new double[31];
+    	String sql="select * from 月度居民消费指数 ";
+    	try {
+			dbConn.getConn();
+			ResultSet rSet=dbConn.executeQuery(sql, null);
+	    	int i=0;
+	    	while (rSet.next()) {
+	    		//保留两位小数
+	    		BigDecimal  b = new BigDecimal(rSet.getDouble(n));
+				cpi[i]= b.setScale(2,BigDecimal.ROUND_HALF_UP).doubleValue(); 
+				//System.out.print(cpi[i]);
+				i++;
+			}
+	    	dbConn.closeAll();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+    	return cpi;	
+    }
     
 }

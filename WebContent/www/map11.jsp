@@ -10,7 +10,9 @@
     <meta charset="utf-8">
     <title>ECharts</title>
     <script src="./js/esl.js"></script>
-     <link href="./css/page.css" rel="stylesheet" type="text/css"/> 
+     <link href="./css/page.css" rel="stylesheet" type="text/css"/>
+     <script type="text/javascript" src="./asset/js/jquery.min.js"></script>
+     <script type="text/javascript" src="./asset/js/menu-js.js"></script> 
 </head>
 
 <body>
@@ -27,7 +29,7 @@
         <li><a href="./form2.jsp" target="_blank">居民消费指数</a></li>
         <li><a href="./map11.jsp" target="_blank">商品进出口</a></li>
         <li><a href="./map9.jsp" target="_blank">各农作物产地</a></li>
-        <li><a href="#" target="_blank">价格预测</a></li>
+        <li><a href="./predict.jsp" target="_blank">价格预测</a></li>
     </ul></div>
      </div>
      <form method="post" action ="bar1.jsp" target="id_iframe">

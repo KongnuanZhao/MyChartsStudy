@@ -11,23 +11,43 @@
     <title>ECharts</title>
     <script src="js/esl.js"></script>
      <link href="./css/page.css" rel="stylesheet" type="text/css"/> 
+     <script type="text/javascript" src="./asset/js/jquery.min.js"></script>
+     <script type="text/javascript" src="./asset/js/menu-js.js"></script>
 </head>
 
 <body>
-     <div id ="select" ><div id ="smenu">
-	<ul>
-    	<li><a href="./mix2.jsp" target="_blank">全国GDP</a></li>
-        <li><a href="./datazoom1.jsp" target="_blank">价格走势</a></li>
-        <li><a href="./form.jsp" target="_blank">价格对比</a></li>
-        <li><a href="./pie7.jsp" target="_blank">CPI比例</a></li>
-        <li><a href="./map2.jsp" target="_blank">全国商品价格</a></li>
-        <li><a href="./form2.jsp" target="_blank">居民消费指数</a></li>
-        <li><a href="./map11.jsp" target="_blank">商品进出口</a></li>
-        <li><a href="./map9.jsp" target="_blank">各农作物产地</a></li>
-        <li><a href="#" target="_blank">价格预测</a></li>
-        <li><a href="./index.html" target="_blank">首页</a></li>
-    </ul>
-</div></div>
+     <div id ="select" ><div id="header">
+<div id="nav" class="nav">
+<ul>
+  <li id="mainlevel_01" class="first-crl mainlevel">
+  <a class="nav-a"   href="./index.html">首页</a> 
+  </li>
+  <li id="mainlevel_02" class="mainlevel">
+  <a class="nav-a">价格分析</a> 
+  <div id="sub_02">
+  <ol>
+    <li><a href="./datazoom1.jsp" target="_blank">价格走势</a></li>
+    <li><a href="./form.jsp" target="_blank">价格对比</a></li>
+    <li><a href="./map2.jsp" target="_blank">全国商品价格</a></li>
+    </ol><span class="nav-img"><img src="./img/pic5_2.png"/> </span></div></li>
+  <li id="mainlevel_03" class="mainlevel">
+  <a class="nav-a">居民价格消费指数</a> 
+  <div id="sub_03">
+  <ol>
+    <li><a href="./form2.jsp" target="_blank">同比环比</a></li>
+    <li><a href="./pie7.jsp" target="_blank">CPI比例</a></li>
+    <li><a href="./map13.jsp">各省月度CPI</a></li>
+    </ol><span class="nav-img"><img src="./img/pic6.png"/> </span></div></li>
+  <li id="mainlevel_04" class="mainlevel">
+  <a class="nav-a" href="./map11.jsp" target="_blank">商品进出口情况</a> </li>
+  <li id="mainlevel_05" class="mainlevel">
+  <a class="nav-a" href="./map9.jsp" target="_blank">各农作物产地</a> </li>
+  <li id="mainlevel_07" class="mainlevel">
+  <a class="nav-a" href="./predict.jsp" target="_blank">价格预测</a> </li>
+   <li id="mainlevel_08" class="end-crl mainlevel">
+   <a class="nav-a" href="#">关于更多</a> </li>
+  </ul></div>
+  </div><!-- end of the header --></div>
      <div id="main" style="height:400px;width:80%;border:1px solid #ccc;padding :10px"></div>
      <div id ="bottom" style="text-align:right"><a href="./index.html"><img src="img/图标2.png" title="返回首页"></img></a></div>
     <script type="text/javascript">

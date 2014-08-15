@@ -15,8 +15,7 @@
 </head>
 
 <body>
-   <div id ="select" >
-   <div id="header">
+   <div id ="select" ><div id="header">
 <div id="nav" class="nav">
 <ul>
   <li id="mainlevel_01" class="first-crl mainlevel">
@@ -77,67 +76,75 @@
             //--- 折柱 ---
             var myChart = ec.init(document.getElementById('main'));
             myChart.setOption({
-            	title : {
-                    text: '各商品平均价格走势',
-                   // subtext: '纯属虚构'
-                },
-            	tooltip : {
-                trigger: 'axis'
-            },
-            legend: {
-            	//selectedMode:'single',
-            	orient: 'vertical',
-            	x: 'right',
-            	y:'center',
-                data:<%=jsTest.stringArray(jsTest.SelectGoodsname())%>,
-                selected: {
-                	<% for(int i=1;i<jsTest.SelectGoodsname().length;i++){%>
-                	   <%=jsTest.SelectGoodsname()[i]%> : false,
-                  <%}%>
-                }
-            },
-            toolbox: {
-                show : true,
-                x:'center',
-                feature : {
-                    mark : {show: true},
-                    dataZoom : {show: true},
-                    dataView : {show: true},
-                    magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
-                    restore : {show: true},
-                    saveAsImage : {show: true}
-                }
-            },
-            calculable : true,
-            dataZoom : {
-                show : true,
-                realtime : true,
-                start : 1,
-                end : 10
-            },
-            xAxis : [
-                {
-                    type : 'category',
-                    boundaryGap : false,
-                    data : <%=jsTest.Arraylistjson(jsTest.SelectDate())%>
-                }
-            ],
-            yAxis : [
-                {
-                    type : 'value'
-                }
-            ],
-            series : [
-                      <% for(int i=0;i<jsTest.SelectGoodsname().length;i++){%>
-                {
-                    name:'<%=jsTest.SelectGoodsname()[i]%>',
-                    type:'line',
-                    data:<%=jsTest.ArraylistFjson(jsTest.SelectPrice(jsTest.SelectGoodsname()[i]))%>
-                },
-                <%}%>
-               
-            ]
-            	
+            	 title : {
+            	        text: '未来价格预测',
+            	        subtext: '源数据来自潍坊物价网'
+            	    },
+            	    tooltip : {
+            	        trigger: 'axis'
+            	    },
+            	    legend: {
+            	        data:['预测价格','实际价格']
+            	    },
+            	    toolbox: {
+            	        show : true,
+            	        feature : {
+            	            mark : {show: true},
+            	            dataView : {show: true, readOnly: false},
+            	            magicType : {show: true, type: ['line', 'bar']},
+            	            restore : {show: true},
+            	            saveAsImage : {show: true}
+            	        }
+            	    },
+            	    calculable : true,
+            	    xAxis : [
+            	        {
+            	            type : 'category',
+            	            boundaryGap : false,
+            	            data : ['1','2','3','4','5','6','7','8']
+            	        }
+            	    ],
+            	    yAxis : [
+            	        {
+            	            type : 'value',
+            	            axisLabel : {
+            	                formatter: '{value} ￥'
+            	            }
+            	        }
+            	    ],
+            	    series : [
+            	        {
+            	            name:'预测价格',
+            	            type:'line',
+            	            data:[11, 11, 15, 13, 12, 13, 10],
+            	            markPoint : {
+            	                data : [
+            	                    {type : 'max', name: '最大值'},
+            	                    {type : 'min', name: '最小值'}
+            	                ]
+            	            },
+            	            markLine : {
+            	                data : [
+            	                    {type : 'average', name: '平均值'}
+            	                ]
+            	            }
+            	        },
+            	        {
+            	            name:'实际价格',
+            	            type:'line',
+            	            data:[0,0, 2, 5, 3, 2],
+            	            markPoint : {
+            	                data : [
+            	                    {name : '周最低', value : -2, xAxis: 1, yAxis: -1.5}
+            	                ]
+            	            },
+            	            markLine : {
+            	                data : [
+            	                    {type : 'average', name : '平均值'}
+            	                ]
+            	            }
+            	        }
+            	    ]
             });
             
          
