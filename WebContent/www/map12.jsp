@@ -43,11 +43,13 @@
   <li id="mainlevel_05" class="mainlevel">
   <a class="nav-a" href="./map9.jsp" target="_blank">各农作物产地</a> </li>
   <li id="mainlevel_07" class="mainlevel">
-  <a class="nav-a" href="./predict.jsp" target="_blank">价格预测</a> </li>
+  <a class="nav-a" href="./form4.jsp" target="_blank">价格预测</a> </li>
    <li id="mainlevel_08" class="end-crl mainlevel">
    <a class="nav-a" href="#">关于更多</a> </li>
   </ul></div>
   </div><!-- end of the header --></div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="查看" src="./img/arrow_next.png"><a href="./map2.jsp">点此返回全国价格分布情况</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="查看" src="./img/arrow_next.png"><a href="./mix3.jsp">点此返回省市级价格分布情况</a>
      <div id="main"></div>
     <div id ="bottom" style="text-align:right"><a href="./index.html"><img src="img/图标2.png" title="返回首页"></img></a></div>
      <%
@@ -99,9 +101,9 @@ var option={
     },
     toolbox: {
         show : true,
-        orient : 'vertical',
-        x: 'right',
-        y: 'center',
+      //  orient : 'vertical',
+        x: 'center',
+        
         feature : {
             mark : {show: true},
             dataView : {show: true, readOnly: false},
@@ -110,16 +112,22 @@ var option={
         }
     },
     dataRange: {
-        min: 1,
-        max: 6,
+        min: 10,
+        max: 15,
         text:['High','Low'],
         realtime: false,
         calculable : true,
        
     },
+    legend: {
+    	selectedMode:'single',
+        orient: 'vertical',
+        x:'right',
+        data : ['精瘦肉','五花肉','排骨','鲜牛肉','鲜羊肉','鸡蛋','芹菜','大白菜','油菜','黄瓜','白萝卜','胡萝卜','青萝卜','茄子','西红柿','土豆','青辣椒','卷心菜','芸豆','蒜苔']
+    },
     series : [
         {
-            name: '潍坊商品价格',
+            name: '精瘦肉',
             type: 'map',
             mapType: 'HK', // 自定义扩展图表类型
             itemStyle:{
@@ -127,18 +135,18 @@ var option={
                 emphasis:{label:{show:true}}
             },
             data:[
-                {name: '安丘市', value: 2.34},
-                {name: '昌乐县', value: 1.48},
-                {name: '昌邑市', value: 3.1},
+                {name: '安丘市', value: 8.34},
+                {name: '昌乐县', value: 10.48},
+                {name: '昌邑市', value: 13.1},
                 {name: '坊子区', value: 6.6},
-                {name: '高密市', value: 4.49},
-                {name: '寒亭区', value: 4.64},
-                {name: '奎文区', value: 3.78},
-                {name: '临朐县', value: 4.97},
-                {name: '青州市', value: 5.26},
-                {name: '寿光市', value: 2.9},
-                {name: '潍城区', value: 4.26},
-                {name: '诸城市', value: 5.84}
+                {name: '高密市', value: 14.49},
+                {name: '寒亭区', value: 14.64},
+                {name: '奎文区', value: 13.78},
+                {name: '临朐县', value: 14.97},
+                {name: '青州市', value: 9.26},
+                {name: '寿光市', value: 12.9},
+                {name: '潍城区', value: 14.26},
+                {name: '诸城市', value: 9.84}
                 
             ],
           

@@ -23,7 +23,7 @@ public class JSONTest {
 	}
 	public JSONArray Arraylistjson(ArrayList<String> arr){
 		JSONArray jsonArray=JSONArray.fromObject(arr);
-		//System.out.println(jsonArray);
+		System.out.println(jsonArray);
 		return jsonArray;
 	}
 	public JSONArray ArraylistFjson(ArrayList<Float> arr){
@@ -196,5 +196,48 @@ public class JSONTest {
 		}
     	return cpi;	
     }
+    //价格预测
+    public  ArrayList<String> SelectCabDate(){
+		DBConn dbConn=new DBConn();
+		ArrayList<String> dateList =new ArrayList<String>();
+		String sql="select 采价日期  from pre_cab";
+		
+		try {
+			dbConn.getConn();
+		ResultSet rSet=dbConn.executeQuery(sql,null);
+			while(rSet.next()){
+				dateList.add(rSet.getString("采价日期"));
+			}
+			dbConn.closeAll();
+		}  catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return dateList;
+		
+	}
+    public  ArrayList<String> SelectCabPrePrice(String string){
+		DBConn dbConn=new DBConn();
+		ArrayList<String> pricelist=new ArrayList<String>();
+		String sql="select "+string+" from pre_cab";
+
+		try {
+			dbConn.getConn();
+			ResultSet rSet=dbConn.executeQuery(sql,null);
+			
+			while(rSet.next()){
+				if(rSet.getFloat(1)==0)
+				pricelist.add("-");	
+				else
+				pricelist.add(rSet.getFloat(1)+"");
+			}
+			dbConn.closeAll();
+		}  catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return pricelist;
+		
+	}
     
 }

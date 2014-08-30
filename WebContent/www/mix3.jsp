@@ -43,11 +43,13 @@
   <li id="mainlevel_05" class="mainlevel">
   <a class="nav-a" href="./map9.jsp" target="_blank">各农作物产地</a> </li>
   <li id="mainlevel_07" class="mainlevel">
-  <a class="nav-a" href="./predict.jsp" target="_blank">价格预测</a> </li>
+  <a class="nav-a" href="./form4.jsp" target="_blank">价格预测</a> </li>
    <li id="mainlevel_08" class="end-crl mainlevel">
    <a class="nav-a" href="#">关于更多</a> </li>
   </ul></div>
   </div><!-- end of the header --></div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="查看" src="./img/arrow_next.png"><a href="./map2.jsp">点此返回全国价格分布情况</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="查看" src="./img/arrow_next.png"><a href="./map12.jsp">点此查看潍坊市价格分布情况</a>
      <div id="main"></div>
      <div id ="bottom" style="text-align:right"><a href="./index.html"><img src="img/图标2.png" title="返回首页"></img></a></div>
     <script type="text/javascript">

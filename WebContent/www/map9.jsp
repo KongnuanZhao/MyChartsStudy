@@ -43,7 +43,7 @@
   <li id="mainlevel_05" class="mainlevel">
   <a class="nav-a" href="./map9.jsp" target="_blank">各农作物产地</a> </li>
   <li id="mainlevel_07" class="mainlevel">
-  <a class="nav-a" href="./predict.jsp" target="_blank">价格预测</a> </li>
+  <a class="nav-a" href="./form4.jsp" target="_blank">价格预测</a> </li>
    <li id="mainlevel_08" class="end-crl mainlevel">
    <a class="nav-a" href="#">关于更多</a> </li>
   </ul></div>
