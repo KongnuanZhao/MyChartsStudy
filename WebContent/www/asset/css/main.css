@@ -1,0 +1,1761 @@
+* {
+	BORDER-LEFT-WIDTH: 0px; FONT-FAMILY: Î¢ÈíÑÅºÚ; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; TEXT-DECORATION: none; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px
+}
+A {
+	
+}
+AREA {
+	
+}
+:focus {
+	
+}
+A {
+	OUTLINE-WIDTH: medium; OUTLINE-STYLE: none
+}
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: Î¢ÈíÑÅºÚ; OVERFLOW-X: hidden; COLOR: #000000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+LI {
+	LIST-STYLE-TYPE: none; OVERFLOW: hidden
+}
+H1 {
+	FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+H2 {
+	FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+H3 {
+	FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+H4 {
+	FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+H5 {
+	FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+H6 {
+	FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.content {
+	HEIGHT: 777px; POSITION: relative; MARGIN: 0px auto; WIDTH: 1400px
+}
+#header {
+	POSITION: absolute; MARGIN-LEFT: 200px; Z-INDEX: 999; MARGIN-TOP: 40px; WIDTH: 1020px
+}
+#header .logo {
+	FLOAT: left
+}
+#header .nav {
+	FLOAT: right; MARGIN-TOP: 10px; WIDTH: 815px
+}
+#header .nav UL .mainlevel {
+	BACKGROUND: url(../images/fgf-bg.png) no-repeat 0px 0px; FLOAT: left; PADDING-LEFT: 2px; LINE-HEIGHT: 33px
+}
+* HTML .nav UL .mainlevel {
+	BACKGROUND: 0px 0px; POSITION: relative
+}
+.language {
+	RIGHT: 22px; POSITION: absolute; COLOR: #ffffff; Z-INDEX: 999; TOP: -30px
+}
+.language A {
+	COLOR: #ffffff; LINE-HEIGHT: 26px
+}
+.language A:hover {
+	COLOR: #eeeeee
+}
+.language SPAN {
+	HEIGHT: 5px; MARGIN: 0px 5px; WIDTH: 1px
+}
+#header .nav UL {
+	DISPLAY: table
+}
+#header .nav UL LI .nav-a {
+	FONT-SIZE: 13px; HEIGHT: 33px; BACKGROUND: url(../images/repeat2-bg.png) repeat-x 0px 0px; COLOR: #ffffff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; TEXT-DECORATION: none; DISPLAY: inline-block; LINE-HEIGHT: 33px; PADDING-RIGHT: 20px
+}
+#header .nav UL LI .current.nav-a {
+	BACKGROUND: url(../images/repeat-bg.png) repeat-x 0px 0px
+}
+#header .nav UL LI .nav-a:hover {
+	HEIGHT: 33px; BACKGROUND: url(../images/repeat-bg.png) repeat-x 0px 0px; COLOR: #ffffff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; LINE-HEIGHT: 33px; PADDING-RIGHT: 20px
+}
+#header .nav UL LI .nav-a {
+	FONT-SIZE: 13px; HEIGHT: 33px; BACKGROUND: url(../images/repeat2-bg.png) repeat-x 0px 0px; COLOR: #ffffff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; TEXT-DECORATION: none; DISPLAY: inline-block; LINE-HEIGHT: 33px; PADDING-RIGHT: 20px
+}
+#header .nav UL LI .current.nav-a {
+	BACKGROUND: url(../images/repeat-bg.png) repeat-x 0px 0px
+}
+#header .nav UL LI .nav-a:hover {
+	HEIGHT: 33px; BACKGROUND: url(../images/repeat-bg.png) repeat-x 0px 0px; COLOR: #ffffff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; LINE-HEIGHT: 33px; PADDING-RIGHT: 20px
+}
+#header .nav UL LI.first-crl {
+	BACKGROUND: 0px 0px
+}
+#header .nav UL LI.first-crl .nav-a {
+	HEIGHT: 38px; BACKGROUND: url(../images/yj-bg2.png) no-repeat left top; PADDING-LEFT: 45px
+}
+#header .nav UL LI.first-crl .nav-a .current {
+	HEIGHT: 38px; BACKGROUND: url(../images/yj-bg.png) no-repeat left top; PADDING-LEFT: 45px
+}
+#header .nav UL LI.first-crl .nav-a:hover {
+	HEIGHT: 38px; BACKGROUND: url(../images/yj-bg.png) no-repeat left top; PADDING-LEFT: 45px
+}
+#header .nav UL LI.end-crl .nav-a {
+	HEIGHT: 38px; BACKGROUND: url(../images/yj-bg2.png) no-repeat right -41px; PADDING-RIGHT: 45px
+}
+#header .nav UL LI.end-crl .current.nav-a {
+	HEIGHT: 38px; BACKGROUND: url(../images/yj-bg.png) no-repeat right -41px; PADDING-RIGHT: 45px
+}
+#header .nav UL LI.end-crl .nav-a:hover {
+	HEIGHT: 38px; BACKGROUND: url(../images/yj-bg.png) no-repeat right -41px; PADDING-RIGHT: 45px
+}
+.mainlevel DIV {
+	HEIGHT: 85px; BACKGROUND: url(../images/nav-bg-09.png) 0px 0px; POSITION: absolute; PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LEFT: 20px; DISPLAY: none; TOP: 43px; PADDING-RIGHT: 20px; WIDTH: 430px
+}
+#sub_01 {
+	LEFT: 230px
+}
+#sub_02 {
+	LEFT: 326px
+}
+#sub_03 {
+	LEFT: 420px
+}
+#sub_04 {
+	LEFT: 515px
+}
+#sub_05 {
+	RIGHT: 320px
+}
+#sub_06 {
+	RIGHT: 225px
+}
+#sub_07 {
+	RIGHT: 131px
+}
+#sub_08 {
+	RIGHT: 21px
+}
+.mainlevel DIV OL {
+	OVERFLOW: hidden; FLOAT: left; DISPLAY: block; WIDTH: 240px
+}
+.mainlevel DIV LI {
+	BORDER-BOTTOM: #cccccc 1px dashed; LINE-HEIGHT: 27px; WIDTH: 300px
+}
+.mainlevel DIV LI A {
+	HEIGHT: 27px; BACKGROUND: url(../images/li-icon.png) no-repeat left center; COLOR: #3b3b3b; PADDING-LEFT: 10px; DISPLAY: inline-block; LINE-HEIGHT: 27px; WIDTH: 79px
+}
+.mainlevel DIV LI A:hover {
+	COLOR: #172053
+}
+.mainlevel DIV .nav-img {
+	FLOAT: right; DISPLAY: inline-block
+}
+.mainlevel DIV SPAN IMG {
+	BORDER-TOP: #ffffff 3px solid; BORDER-RIGHT: #ffffff 3px solid; BORDER-BOTTOM: #ffffff 3px solid; BORDER-LEFT: #ffffff 3px solid
+}
+.content .banner {
+	OVERFLOW: hidden; HEIGHT: 701px; POSITION: relative; WIDTH: 1400px
+}
+.content .banner IMG {
+	POSITION: absolute
+}
+.banner .bnshow {
+	HEIGHT: 100%; POSITION: absolute; WIDTH: 100%
+}
+.banner .bannerNav {
+	RIGHT: 205px; POSITION: absolute; BOTTOM: 15px
+}
+.banner .bannerNav A {
+	CURSOR: pointer; HEIGHT: 12px; BACKGROUND: url(../images/icon-btn.png) no-repeat 0px -12px; DISPLAY: inline-block; WIDTH: 12px
+}
+.banner .bannerNav .imgSelected {
+	BACKGROUND-POSITION: 0px 0px
+}
+.zdjmshow {
+	OVERFLOW: hidden; POSITION: relative; Z-INDEX: 99
+}
+.zdjmshow .desc {
+	POSITION: absolute; LEFT: 0px; Z-INDEX: 998; WIDTH: 100%; BOTTOM: 0px
+}
+.zdjmshow A {
+	CURSOR: pointer; DISPLAY: inline-block
+}
+.zdjmshow A.collapse {
+	HEIGHT: 20px; BACKGROUND: url(../images/open-main.png) no-repeat left top; MARGIN: 0px auto; WIDTH: 80px
+}
+.zdjmshow A.collapse:hover {
+	BACKGROUND: url(../images/open-main-2.png) no-repeat left top
+}
+.zdjmshow A.show {
+	BACKGROUND: url(../images/close-main.png) no-repeat left top; RIGHT: 0px; POSITION: absolute; MARGIN: 0px; TOP: -20px; WIDTH: 32px
+}
+.zdjmshow A.show:hover {
+	BACKGROUND: url(../images/close-main-2.png) no-repeat left top
+}
+.show2 {
+	POSITION: relative; TEXT-ALIGN: center; MARGIN: 0px auto; WIDTH: 1000px
+}
+.zdjm {
+	HEIGHT: 167px; BACKGROUND: url(../images/show-bg.png) repeat-x 0px 0px; POSITION: relative; COLOR: #707070; MARGIN: 0px auto; WIDTH: 1400px
+}
+.zdjm .main {
+	HEIGHT: 100%; MARGIN: 0px auto; WIDTH: 1000px
+}
+.zdjm .main H2 {
+	FONT-SIZE: 14px; FONT-WEIGHT: normal; COLOR: #202b66; PADDING-TOP: 5px; LINE-HEIGHT: 36px
+}
+.zdjm .main H2 SPAN {
+	FONT-SIZE: 12px; COLOR: #5a5a5a; MARGIN-LEFT: 5px; DISPLAY: inline-block; LINE-HEIGHT: 18px
+}
+.zdjm .main .news {
+	FLOAT: left; WIDTH: 330px; MARGIN-RIGHT: 40px
+}
+.zdjm .main .news UL LI {
+	HEIGHT: 26px; BORDER-BOTTOM: #dddddd 1px solid; LINE-HEIGHT: 26px
+}
+.zdjm .main .news UL LI A {
+	FLOAT: left; COLOR: #5a5a5a; DISPLAY: inline-block
+}
+.zdjm .main .news UL LI A:hover {
+	COLOR: #202b66
+}
+.zdjm .main .news UL LI A STRONG {
+	MARGIN-RIGHT: 3px
+}
+.zdjm .main .news UL LI SPAN {
+	FONT-SIZE: 10px; FONT-FAMILY: Arial,Helvetica,sans-serif; FLOAT: right
+}
+#scrollDiv {
+	OVERFLOW: hidden; HEIGHT: 85px
+}
+.zdjm .main .news P {
+	MARGIN-TOP: 5px
+}
+.zdjm .main .news P A {
+	BORDER-TOP: #f2f2f2 1px solid; HEIGHT: 14px; BORDER-RIGHT: #f2f2f2 1px solid; BACKGROUND: url(../images/left-btn.png) no-repeat 0px top; BORDER-BOTTOM: #f2f2f2 1px solid; BORDER-LEFT: #f2f2f2 1px solid; DISPLAY: inline-block; WIDTH: 14px
+}
+.zdjm .main .news #btn2 {
+	BACKGROUND-POSITION: 0px -17px
+}
+.zdjm .main .news #btn1:hover {
+	BACKGROUND: url(../images/right-btn.png) no-repeat 0px -16px
+}
+.zdjm .main .news #btn2:hover {
+	BACKGROUND: url(../images/right-btn.png) no-repeat 0px 0px
+}
+.zdjm A {
+	COLOR: #707070
+}
+.zdjm A:hover {
+	COLOR: #ae0462
+}
+.zdjm .hdp {
+	HEIGHT: 151px; POSITION: relative; FLOAT: left; WIDTH: 295px
+}
+.zdjm .hdp .hdp_main {
+	POSITION: absolute; MARGIN-TOP: 5px; TOP: 15px; WIDTH: 295px
+}
+.zdjm .hdp .hdp_tab {
+	RIGHT: 0px; POSITION: absolute; BOTTOM: 8px
+}
+.zdjm .hdpimg {
+	FLOAT: left; MARGIN-TOP: 15px; WIDTH: 295px
+}
+.zdjm .line {
+	HEIGHT: 70px; BACKGROUND: #e5e5e4 0px 0px; FLOAT: left; MARGIN: 30px 24px 0px; WIDTH: 1px
+}
+.zdjm .xw {
+	HEIGHT: 70px; FLOAT: left; MARGIN-TOP: 30px; LINE-HEIGHT: 20px; WIDTH: 345px
+}
+.zdjm .xw UL LI {
+	HEIGHT: 20px; COLOR: #707070; WIDTH: 345px
+}
+.zdjm .xw UL LI .tit {
+	OVERFLOW: hidden; HEIGHT: 20px; FLOAT: left; WIDTH: 265px
+}
+.zdjm .xw UL LI .date {
+	FLOAT: right
+}
+.zdjm .zr {
+	HEIGHT: 70px; FLOAT: right; MARGIN-TOP: 30px; WIDTH: 285px
+}
+.flex-direction-nav {
+	HEIGHT: 0px; DISPLAY: none
+}
+.hdp {
+	POSITION: relative; FLOAT: left; WIDTH: 295px
+}
+.hdp_tab {
+	OVERFLOW: hidden; HEIGHT: 6px; FLOAT: right; MARGIN-TOP: 10px
+}
+.hdp_tab LI {
+	LIST-STYLE-TYPE: none; FLOAT: left; TEXT-ALIGN: center
+}
+.hdp_tab A {
+	CURSOR: pointer; HEIGHT: 6px; DISPLAY: block; WIDTH: 6px; MARGIN-RIGHT: 5px
+}
+.hidecontent {
+	DISPLAY: none
+}
+.clear {
+	CLEAR: both
+}
+.tab_img {
+	HEIGHT: 6px; WIDTH: 6px
+}
+.on {
+	BACKGROUND: url(../images/circle.png) no-repeat 0px 0px
+}
+.out {
+	BACKGROUND: url(../images/circle.png) no-repeat 0px -6px
+}
+.chengyuan {
+	FLOAT: right; WIDTH: 300px
+}
+.chengyuan UL {
+	MARGIN-TOP: 3px
+}
+.chengyuan UL LI {
+	MARGIN-BOTTOM: 5px; FLOAT: left; MARGIN-RIGHT: 5px
+}
+.chengyuan UL LI A {
+	HEIGHT: 25px; BACKGROUND: url(../images/cy-bg.jpg) no-repeat left center; PADDING-LEFT: 30px; DISPLAY: inline-block; LINE-HEIGHT: 26px; WIDTH: 65px
+}
+.chengyuan UL LI A:hover {
+	BACKGROUND: url(../images/img-hover.jpg) no-repeat 0px 0px; COLOR: #ffffff
+}
+.footer {
+	HEIGHT: 42px; BACKGROUND: url(../images/footer-bg.jpg) repeat-x 0px -2px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LEFT: 0px; CLEAR: both; PADDING-RIGHT: 0px; WIDTH: 1400px
+}
+.footer-main {
+	MARGIN: 0px auto; WIDTH: 1000px
+}
+.footer-left {
+	FLOAT: left; WIDTH: 50%
+}
+.footer-left A {
+	COLOR: #484848
+}
+.footer-left A:hover {
+	COLOR: #172053
+}
+.footer-left SPAN {
+	COLOR: #5a5a5a; MARGIN: 0px 10px
+}
+.footer-left P {
+	COLOR: #5a5a5a; LINE-HEIGHT: 26px
+}
+.footer-right {
+	FLOAT: right
+}
+#menuLog {
+	FONT-SIZE: 1.4em; MARGIN: 20px
+}
+.hidden {
+	OVERFLOW: hidden; HEIGHT: 1px; POSITION: absolute; LEFT: -9999px; TOP: 0px; WIDTH: 1px
+}
+.fg-button {
+	CURSOR: pointer; FONT-SIZE: 10px; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; POSITION: relative; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1em; CLEAR: left; TEXT-DECORATION: none !important; MARGIN: 0px 4px 40px 20px; DISPLAY: inline-block; PADDING-RIGHT: 1em; WIDTH: 130px
+}
+.fg-button .ui-icon {
+	POSITION: absolute; MARGIN-LEFT: -8px; LEFT: 50%; MARGIN-TOP: -8px; TOP: 50%
+}
+A.fg-button {
+	FLOAT: left
+}
+BUTTON.fg-button {
+	OVERFLOW: visible; WIDTH: auto
+}
+.fg-button-icon-left {
+	PADDING-LEFT: 2.1em
+}
+.fg-button-icon-right {
+	PADDING-RIGHT: 2.1em
+}
+.fg-button-icon-left .ui-icon {
+	RIGHT: auto; MARGIN-LEFT: 0px; LEFT: 0.2em
+}
+.fg-button-icon-right .ui-icon {
+	RIGHT: 0.2em; MARGIN-LEFT: 0px; LEFT: auto
+}
+.fg-button-icon-solo {
+	DISPLAY: block; WIDTH: 8px; TEXT-INDENT: -9999px
+}
+.ui-state-loading.fg-button .ui-icon {
+	BACKGROUND: url(spinner_bar.gif) no-repeat 0px 0px
+}
+.positionHelper {
+	POSITION: absolute; Z-INDEX: 999
+}
+.content-02 {
+	HEIGHT: auto; BACKGROUND: #f7f7f7 0px 0px
+}
+.banner-02 {
+	HEIGHT: 364px; POSITION: relative; WIDTH: 100%
+}
+.main-02 {
+	BACKGROUND: url(../images/main-bg_02.jpg) repeat-y 0px 0px; POSITION: relative; MARGIN-LEFT: 200px; DISPLAY: table; WIDTH: 1003px
+}
+.main-02 .left {
+	POSITION: relative; FLOAT: left; WIDTH: 217px
+}
+.main-02 .left .title {
+	POSITION: absolute; TOP: -72px
+}
+.main-02 .left .left-menu {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px
+}
+.main-02 .left .left-menu UL LI {
+	WIDTH: 180px
+}
+.main-02 .left .left-menu UL LI A {
+	FONT-SIZE: 14px; HEIGHT: 30px; BACKGROUND: url(../images/navbg.jpg) no-repeat 0px 0px; COLOR: #757575; PADDING-LEFT: 30px; MARGIN-TOP: 3px; DISPLAY: inline-block; LINE-HEIGHT: 30px; WIDTH: 150px
+}
+.main-02 .left .left-menu UL LI A:hover {
+	BACKGROUND: url(../images/navbg2.jpg) no-repeat 0px 0px; COLOR: #ffffff
+}
+.main-02 .left .left-menu UL LI A.current {
+	BACKGROUND: url(../images/navbg2.jpg) no-repeat 0px 0px; COLOR: #ffffff
+}
+.main-02 .left .search {
+	OVERFLOW: hidden; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; WIDTH: 181px
+}
+.main-02 .left .search UL {
+	WIDTH: 200px
+}
+.main-02 .left .search UL LI {
+	OVERFLOW: hidden; CLEAR: both; MARGIN-TOP: 5px
+}
+.main-02 .left .search UL LI H3 {
+	COLOR: #023462; PADDING-LEFT: 3px; LINE-HEIGHT: 24px
+}
+.main-02 .left .search UL LI SELECT {
+	HEIGHT: 23px; BACKGROUND: url(../images/listbg.jpg) no-repeat 0px 0px; LINE-HEIGHT: 23px; WIDTH: 180px
+}
+.main-02 .left .search UL LI SPAN {
+	FLOAT: left; DISPLAY: inline-block
+}
+.main-02 .left .search UL LI SPAN .txt {
+	BORDER-TOP: medium none; HEIGHT: 23px; BORDER-RIGHT: medium none; BACKGROUND: url(../images/search-txt.jpg) no-repeat 0px 0px; BORDER-BOTTOM: medium none; PADDING-LEFT: 5px; BORDER-LEFT: medium none; LINE-HEIGHT: 23px; WIDTH: 152px
+}
+.main-02 .left .search UL LI SPAN .btn {
+	CURSOR: pointer; HEIGHT: 23px; BACKGROUND: url(../images/search-btn.jpg) no-repeat 0px 0px; WIDTH: 23px
+}
+.main-02 .right {
+	OVERFLOW: visible; POSITION: relative; FLOAT: right; COLOR: #777777; LINE-HEIGHT: 24px; WIDTH: 759px; MARGIN-RIGHT: 4px
+}
+.main-02 .right .title {
+	HEIGHT: 35px; BACKGROUND: url(../images/right-title_01.jpg) repeat-x 0px 0px; POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; PADDING-LEFT: 35px; LEFT: 0px; LINE-HEIGHT: 40px; TOP: -40px; PADDING-RIGHT: 35px; WIDTH: 689px
+}
+.main-02 .right .title A {
+	COLOR: #000000
+}
+.main-02 .right .title .left-link {
+	FLOAT: left
+}
+.main-02 .right .title .right-print {
+	FLOAT: right
+}
+.main-02 .right .title .right-print A {
+	BACKGROUND: url(../images/print.jpg) no-repeat 2px 12px; COLOR: #717578; PADDING-LEFT: 20px; DISPLAY: inline-block
+}
+.main-02 .right .title .right-print A:hover {
+	COLOR: #172053
+}
+.main-02 .right .right-main {
+	BACKGROUND: url(../images/border-top.jpg) repeat-x 0px 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; MARGIN: 0px auto; PADDING-RIGHT: 0px; WIDTH: 689px
+}
+.main-02 .right .right-main .about-txt {
+	FONT-SIZE: 13px; COLOR: #777777; PADDING-BOTTOM: 30px; PADDING-TOP: 30px; PADDING-LEFT: 0px; LINE-HEIGHT: 24px; PADDING-RIGHT: 0px
+}
+.main-02 .right .right-main .about-txt P {
+	TEXT-INDENT: 2em
+}
+.main-02 .right .right-main .about-txt A {
+	BACKGROUND: url(../images/icon_21.jpg) no-repeat 0px center; COLOR: #114472; PADDING-LEFT: 15px; DISPLAY: block
+}
+.main-02 .right .right-main .about-txt A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .right-main H2 {
+	FONT-SIZE: 15px; COLOR: #ff7229; LINE-HEIGHT: 36px
+}
+.main-02 .right .right-main .king {
+	HEIGHT: 188px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; BACKGROUND-COLOR: #f3f7f9
+}
+.main-02 .right .right-main .king H2 A {
+	COLOR: #ff7229
+}
+.main-02 .right .right-main .king H2 A:hover {
+	COLOR: #172053
+}
+.main-02 .right .right-main .king DL {
+	DISPLAY: table; WIDTH: 653px
+}
+.main-02 .right .right-main .king DL DT {
+	FLOAT: left; WIDTH: 173px
+}
+.main-02 .right .right-main .king DL DD {
+	FLOAT: right; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WIDTH: 455px
+}
+.main-02 .right .right-main .king DL DD .links A {
+	HEIGHT: 20px; BACKGROUND: url(../images/icon_21.jpg) no-repeat left center; COLOR: #114472; PADDING-LEFT: 18px; MARGIN: 10px 20px 10px 0px; DISPLAY: inline-block; LINE-HEIGHT: 20px
+}
+.main-02 .right .right-main .king DL DD .links A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .right-main .history {
+	MARGIN-TOP: 20px
+}
+.main-02 .right .right-main .history H2 {
+	HEIGHT: 40px; BACKGROUND: url(../images/h2-bg.jpg) no-repeat left bottom; LINE-HEIGHT: 34px
+}
+.main-02 .right .right-main .history H2 A {
+	FONT-SIZE: 15px; COLOR: #ff7229
+}
+.main-02 .right .right-main .history H2 A:hover {
+	COLOR: #172053
+}
+.main-02 .right .right-main .history .history-main {
+	FONT-SIZE: 13px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .right-main .linklist UL LI {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 35px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; WIDTH: 214px
+}
+.main-02 .right .right-main .linklist UL LI.bor {
+	BORDER-RIGHT: #ebebeb 1px solid; PADDING-LEFT: 0px
+}
+.main-02 .right .right-main .linklist UL LI.bor2 {
+	BORDER-LEFT: #ebebeb 1px solid; PADDING-RIGHT: 0px
+}
+.main-02 .right .right-main .linklist UL LI IMG {
+	BORDER-TOP: #b4b4b4 1px solid; HEIGHT: 94px; BORDER-RIGHT: #b4b4b4 1px solid; BORDER-BOTTOM: #b4b4b4 1px solid; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 3px; BORDER-LEFT: #b4b4b4 1px solid; PADDING-RIGHT: 3px; WIDTH: 204px
+}
+.main-02 .right .right-main .linklist UL LI P {
+	OVERFLOW: hidden; HEIGHT: 48px; MARGIN-TOP: 5px
+}
+.main-02 .right .right-main .linklist UL LI DIV A {
+	HEIGHT: 20px; BACKGROUND: url(../images/icon_21.jpg) no-repeat left center; COLOR: #114472; PADDING-LEFT: 15px; DISPLAY: block; LINE-HEIGHT: 20px
+}
+.main-02 .right .right-main .linklist UL LI DIV A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .right-main .linklist H2 A {
+	COLOR: #ff7229
+}
+.main-02 .right .right-main .linklist H2 A:hover {
+	COLOR: #172053
+}
+.main-02 .right .about-01 P {
+	MARGIN-BOTTOM: 10px
+}
+.main-02 .right .about-01 H3 {
+	MARGIN-BOTTOM: 10px; HEIGHT: 24px; BORDER-BOTTOM: #ebebeb 1px solid; FONT-WEIGHT: bold; COLOR: #404040; PADDING-LEFT: 10px; LINE-HEIGHT: 24px
+}
+.main-02 .right .about-02 .king {
+	HEIGHT: 214px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 15px; MARGIN: 30px 0px; PADDING-RIGHT: 15px
+}
+.main-02 .right .about-02 .king DL DT {
+	WIDTH: 198px
+}
+.main-02 .right .about-02 .king DL DD {
+	WIDTH: 420px
+}
+.main-02 .right .about-02 .king H2 {
+	MARGIN-BOTTOM: 10px; FONT-SIZE: 15px; FONT-WEIGHT: bold; COLOR: #484a4b
+}
+.main-02 .right .about-02 .king P {
+	FONT-SIZE: 14px
+}
+.main-02 .right .tabs .newsxxk {
+	DISPLAY: block
+}
+.main-02 .right .tabs .newsxxk .tab UL {
+	OVERFLOW: hidden; BORDER-BOTTOM: #c4c4c4 1px solid; PADDING-LEFT: 15px; TOP: 0px
+}
+.main-02 .right .tabs .newsxxk .tab UL LI {
+	CURSOR: pointer; FONT-SIZE: 14px; HEIGHT: 26px; BACKGROUND: url(../images/li-img.jpg) #ebebeb no-repeat 10px center; FLOAT: left; COLOR: #000000; PADDING-LEFT: 20px; LINE-HEIGHT: 26px; PADDING-RIGHT: 10px; MARGIN-RIGHT: 10px
+}
+.main-02 .right .tabs .newsxxk .tab UL LI A {
+	COLOR: #000
+}
+.main-02 .right .tabs .newsxxk .tab UL LI.current {
+	CURSOR: pointer; BACKGROUND: url(../images/cur-img.jpg) #13417b no-repeat 10px center; COLOR: #ffffff
+}
+.main-02 .right .tabs .newsxxk .tab UL LI.current A {
+	COLOR: #fff
+}
+.main-02 .right .tabs .newsxxk .items {
+	OVERFLOW: hidden; FONT-SIZE: 13px; COLOR: #777777; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 15px; DISPLAY: none; PADDING-RIGHT: 15px; WIDTH: 660px
+}
+.main-02 .right .tabs .newsxxk .items TABLE TR TD {
+	BORDER-BOTTOM: #dadada 1px dashed; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; LINE-HEIGHT: 24px; PADDING-RIGHT: 10px
+}
+.main-02 .right .tabs .newsxxk .items UL {
+	DISPLAY: table; WIDTH: 750px
+}
+.main-02 .right .tabs .newsxxk .items UL LI {
+	MARGIN-BOTTOM: 15px; FLOAT: left; WIDTH: 190px; MARGIN-RIGHT: 45px
+}
+.main-02 .right .tabs .newsxxk .items UL LI IMG {
+	BORDER-TOP: #d4d4d4 1px solid; HEIGHT: 116px; BORDER-RIGHT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #d4d4d4 1px solid; PADDING-RIGHT: 4px; WIDTH: 180px
+}
+.main-02 .right .tabs .newsxxk .items UL LI SPAN {
+	TEXT-ALIGN: center; MARGIN-TOP: 5px; DISPLAY: block; LINE-HEIGHT: 18px
+}
+.main-02 .right .page {
+	CLEAR: both; MARGIN-TOP: 30px
+}
+.main-02 .right .page A {
+	HEIGHT: 25px; BACKGROUND: url(../images/bg-page.jpg) no-repeat 0px 0px; COLOR: #828282; TEXT-ALIGN: center; MARGIN: 0px 5px; DISPLAY: inline-block; LINE-HEIGHT: 25px; WIDTH: 26px
+}
+.main-02 .right .page A.current {
+	BACKGROUND: url(../images/cur-page.jpg) no-repeat 0px 0px; COLOR: #ffffff
+}
+.main-02 .right .about-03 .team {
+	PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .about-03 .team UL LI {
+	FONT-SIZE: 14px; DISPLAY: table; WIDTH: 99.9%
+}
+.main-02 .right .about-03 .team UL LI DL {
+	BORDER-TOP: #dadada 1px dashed; FLOAT: left; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; DISPLAY: table; PADDING-RIGHT: 0px; WIDTH: 280px
+}
+.main-02 .right .about-03 .team UL LI DL DT {
+	FLOAT: left; WIDTH: 152px
+}
+.main-02 .right .about-03 .team UL LI DL DT IMG {
+	HEIGHT: 168px; WIDTH: 152px
+}
+.main-02 .right .about-03 .team UL LI DL DD {
+	OVERFLOW: hidden; FONT-SIZE: 12px; FLOAT: right; COLOR: #000000; WIDTH: 110px
+}
+.main-02 .right .about-03 .team UL LI DL DD H3 {
+	FONT-SIZE: 18px; COLOR: #0063b3
+}
+.main-02 .right .about-03 .team UL LI DL DD H3 A {
+	COLOR: #0063b3
+}
+.main-02 .right .about-03 .team UL LI DL DD H3 A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .about-03 .team UL LI .team-txt {
+	OVERFLOW: hidden; BORDER-TOP: #dadada 1px dashed; FLOAT: right; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WIDTH: 385px
+}
+.main-02 .right .about-03 .team UL LI .team-txt .txt {
+	OVERFLOW: hidden; HEIGHT: 130px
+}
+.main-02 .right .about-03 .team UL LI .team-txt A {
+	COLOR: #ff6c21; MARGIN: 10px 0px; DISPLAY: block
+}
+.main-02 .right .about-03 .team UL LI .team-txt A:hover {
+	COLOR: #172053
+}
+.main-02 .right .about-03-01 DL {
+	FONT-SIZE: 14px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .about-03-01 DL DT {
+	OVERFLOW: hidden; FLOAT: left; WIDTH: 168px
+}
+.main-02 .right .about-03-01 DL DD {
+	FLOAT: left; PADDING-BOTTOM: 40px; PADDING-LEFT: 60px; MARGIN-LEFT: 60px; BORDER-LEFT: #dadada 1px solid; WIDTH: 375px
+}
+.main-02 .right .about-03-01 DL DD H3 {
+	FONT-SIZE: 18px; COLOR: #0063b3
+}
+.main-02 .right .about-03-01 DL DD .tag {
+	BORDER-BOTTOM: #dadada 1px solid; LINE-HEIGHT: 36px
+}
+.main-02 .right .about-03-01 DL DD .tag STRONG {
+	FONT-SIZE: 14px; FONT-WEIGHT: normal; COLOR: #000000; MARGIN-RIGHT: 15px
+}
+.main-02 .right .about-03-01 DL DD .intro {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .back {
+	RIGHT: 40px; POSITION: absolute; BOTTOM: 20px
+}
+.main-02 .back A {
+	HEIGHT: 24px; BACKGROUND: url(../images/icon_21.jpg) no-repeat left 6px; COLOR: #104473; PADDING-LEFT: 15px; DISPLAY: inline-block; LINE-HEIGHT: 24px
+}
+.main-02 .right .about-05 {
+	FONT-SIZE: 13px
+}
+.main-02 .right .about-05 DL {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 60px; HEIGHT: 140px
+}
+.main-02 .right .about-05 DL DT {
+	FLOAT: left; WIDTH: 220px
+}
+.main-02 .right .about-05 DL DT IMG {
+	BORDER-TOP: #d4d4d4 1px solid; HEIGHT: 130px; BORDER-RIGHT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #d4d4d4 1px solid; PADDING-RIGHT: 4px; WIDTH: 195px
+}
+.main-02 .right .about-05 DL DD {
+	FLOAT: right; WIDTH: 465px
+}
+.main-02 .right .about-05 DL DD H3 {
+	MARGIN-BOTTOM: 7px; FONT-SIZE: 15px; BORDER-BOTTOM: #d4d4d4 1px solid; FONT-WEIGHT: bold; COLOR: #346fb6; LINE-HEIGHT: 30px
+}
+.main-02 .right .about-05 DL DD H3 A {
+	COLOR: #346fb6
+}
+.main-02 .right .about-05 DL DD P {
+	TEXT-INDENT: 2em
+}
+.main-02 .right .about-05 .dl2 DT {
+	FLOAT: right; TEXT-ALIGN: right
+}
+.main-02 .right .about-05 .dl2 DD {
+	FLOAT: left
+}
+.main-02 .right .about-05-main {
+	PADDING-BOTTOM: 50px; PADDING-TOP: 10px
+}
+.main-02 .right .about-05-main H1 {
+	MARGIN-BOTTOM: 7px; FONT-SIZE: 15px; BORDER-BOTTOM: #d4d4d4 1px solid; FONT-WEIGHT: bold; COLOR: #346fb6; LINE-HEIGHT: 30px
+}
+.main-02 .right .about-05-main P {
+	MARGIN-TOP: 15px; TEXT-INDENT: 2em
+}
+.main-02 .right .about-06 .years {
+	PADDING-BOTTOM: 40px; DISPLAY: table
+}
+.main-02 .right .about-06 .contain {
+	OVERFLOW: hidden; FONT-SIZE: 16px; HEIGHT: 30px; POSITION: relative; FLOAT: left; WIDTH: 648px
+}
+.main-02 .right .about-06 .tab2 {
+	BORDER-BOTTOM: #dadada 1px solid; POSITION: absolute; LEFT: 0px; WIDTH: 2000px
+}
+.main-02 .right .about-06 .tab2 LI {
+	CURSOR: pointer; BACKGROUND: #ebebeb 0px 0px; FLOAT: left; COLOR: #666666; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 15px; MARGIN: 0px 3px; LINE-HEIGHT: 24px; PADDING-RIGHT: 15px
+}
+.main-02 .right .about-06 .tab2 .active {
+	BACKGROUND: #104473 0px 0px; COLOR: #ffffff
+}
+.main-02 .right .about-06 .prev2 {
+	CURSOR: pointer; HEIGHT: 25px; FONT-FAMILY: ËÎÌå; BACKGROUND: #efefef 0px 0px; FLOAT: left; TEXT-ALIGN: center; DISPLAY: block; LINE-HEIGHT: 25px; WIDTH: 20px
+}
+.next2 {
+	CURSOR: pointer; HEIGHT: 25px; FONT-FAMILY: ËÎÌå; BACKGROUND: #efefef 0px 0px; FLOAT: left; TEXT-ALIGN: center; DISPLAY: block; LINE-HEIGHT: 25px; WIDTH: 20px
+}
+.main-02 .right .about-06 .dis {
+	CURSOR: auto; COLOR: #cccccc
+}
+.main-02 .right .about-06 .show {
+	FONT-SIZE: 13px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 25px; CLEAR: both; MIN-HEIGHT: 50px; DISPLAY: table; PADDING-RIGHT: 25px
+}
+.main-02 .right .about-06 .show DIV {
+	DISPLAY: none
+}
+.main-02 .right .about-06 .show DIV TABLE TR TD {
+	BORDER-BOTTOM: #dadada 1px dashed; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; LINE-HEIGHT: 24px; PADDING-RIGHT: 10px
+}
+.main-02 .right .about-07 .tabs {
+	PADDING-TOP: 20px
+}
+.main-02 .right .about-07 .items UL LI A {
+	FONT-SIZE: 13px; COLOR: #777777
+}
+.main-02 .right .about-07 .items UL LI A:hover {
+	COLOR: #172053
+}
+.main-02 .right .about-08 .about-08-main UL {
+	DISPLAY: table; WIDTH: 750px
+}
+.main-02 .right .about-08 .about-08-main LI {
+	FLOAT: left; MARGIN-TOP: 15px; WIDTH: 190px; MARGIN-RIGHT: 45px
+}
+.main-02 .right .about-08 .about-08-main LI IMG {
+	BORDER-TOP: #d4d4d4 1px solid; HEIGHT: 116px; BORDER-RIGHT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #d4d4d4 1px solid; PADDING-RIGHT: 4px; WIDTH: 180px
+}
+.main-02 .right .about-08 .about-08-main LI SPAN {
+	FONT-SIZE: 13px; TEXT-ALIGN: center; MARGIN-TOP: 5px; DISPLAY: block; LINE-HEIGHT: 18px
+}
+.main-02 .right .about-08 .about-08-main UL LI A {
+	COLOR: #777777
+}
+.main-02 .right .about-08 .about-08-main UL LI A:hover {
+	COLOR: #172053
+}
+.main-02 .right .about-09 #marqueediv {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 30px; HEIGHT: 130px; MARGIN-TOP: 20px; WIDTH: 690px
+}
+.main-02 .right .about-09 #marqueediv IMG {
+	MARGIN-RIGHT: 10px
+}
+.main-02 .right .about-09 .tabs .newsxxk .items TABLE TR TD {
+	FONT-SIZE: 13px; COLOR: #777777; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.main-02 .right .about-09 .tabs .newsxxk .items TABLE TR TD STRONG {
+	MARGIN-RIGHT: 5px
+}
+.main-02 .right .news {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; DISPLAY: table; PADDING-RIGHT: 0px
+}
+.main-02 .right .news .news-show {
+	DISPLAY: table; WIDTH: 100%
+}
+.main-02 .right .news #focus {
+	OVERFLOW: hidden; HEIGHT: 129px; POSITION: relative; FLOAT: left; WIDTH: 196px
+}
+.main-02 .right .news #focus UL {
+	HEIGHT: 225px; POSITION: absolute
+}
+.main-02 .right .news #focus UL LI {
+	OVERFLOW: hidden; HEIGHT: 129px; BACKGROUND: #000000 0px 0px; POSITION: relative; FLOAT: left; WIDTH: 196px
+}
+.main-02 .right .news #focus UL LI IMG {
+	HEIGHT: 129px; WIDTH: 196px
+}
+.main-02 .right .news #focus UL LI DIV {
+	OVERFLOW: hidden; POSITION: absolute
+}
+.main-02 .right .news #focus .btnBg {
+	HEIGHT: 18px; BACKGROUND: #000000 0px 0px; POSITION: absolute; LEFT: 0px; WIDTH: 196px; BOTTOM: 0px
+}
+.main-02 .right .news #focus .btn {
+	HEIGHT: 18px; POSITION: absolute; TEXT-ALIGN: right; LEFT: 0px; WIDTH: 196px; BOTTOM: 0px
+}
+.main-02 .right .news #focus .btn SPAN {
+	CURSOR: pointer; FONT-SIZE: 12px; HEIGHT: 18px; FONT-FAMILY: "Microsoft YaHei",SimHei; COLOR: #ffffff; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 7px; BORDER-LEFT: #f2f2f2 1px solid; DISPLAY: inline-block; LINE-HEIGHT: 18px; PADDING-RIGHT: 7px
+}
+.main-02 .right .news #focus .btn SPAN.on {
+	BACKGROUND: #000000 0px 0px; COLOR: #ffcccc
+}
+.main-02 .right .news .show-txt {
+	FLOAT: right; WIDTH: 460px
+}
+.main-02 .right .news .show-txt .ul1 {
+	WIDTH: 460px
+}
+.main-02 .right .news .show-txt .ul1 LI {
+	OVERFLOW: hidden; HEIGHT: 27px
+}
+.main-02 .right .news .show-txt .ul1 LI .news-title {
+	MARGIN-BOTTOM: 3px; CURSOR: pointer; HEIGHT: 26px; BORDER-BOTTOM: #d7d7d7 1px dashed; COLOR: #9d9d9d; LINE-HEIGHT: 26px
+}
+.main-02 .right .news .show-txt .ul1 LI .news-title A {
+	FONT-SIZE: 14px; FLOAT: left; COLOR: #003065; DISPLAY: inline-block; WIDTH: 365px
+}
+.main-02 .right .news .show-txt .ul1 LI .news-title SPAN {
+	FLOAT: right
+}
+.main-02 .right .news .show-txt .ul1 LI.hover {
+	HEIGHT: 75px
+}
+.main-02 .right .news .show-txt .ul1 LI.hover A {
+	FONT-SIZE: 16px
+}
+.main-02 .right .news .ul-list {
+	MARGIN-TOP: 20px
+}
+.main-02 .right .news .ul-list H2 {
+	HEIGHT: 30px; BACKGROUND: url(../images/h2-bg02.jpg) no-repeat left bottom; MARGIN-TOP: 5px; LINE-HEIGHT: 30px; WIDTH: 100%
+}
+.main-02 .right .news .ul-list H2 STRONG {
+	BACKGROUND: url(../images/icon-10.jpg) no-repeat left center; FLOAT: left; FONT-WEIGHT: normal; PADDING-LEFT: 10px; DISPLAY: inline-block
+}
+.main-02 .right .news .ul-list H2 A {
+	FONT-SIZE: 12px; HEIGHT: 36px; BACKGROUND: url(../images/icon_21.jpg) no-repeat left 12px; FLOAT: right; COLOR: #114472; PADDING-LEFT: 15px; DISPLAY: inline-block; LINE-HEIGHT: 36px
+}
+.main-02 .right .news .ul-list H2 A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .news .ul-list UL {
+	PADDING-TOP: 5px; DISPLAY: table; WIDTH: 100%
+}
+.main-02 .right .news .ul-list UL LI {
+	MARGIN: 0px auto; DISPLAY: block; WIDTH: 99%
+}
+.main-02 .right .news .ul-list UL LI A {
+	FONT-SIZE: 13px; BACKGROUND: url(../images/icon-11.jpg) no-repeat left center; FLOAT: left; COLOR: #666666; PADDING-LEFT: 10px; DISPLAY: inline-block
+}
+.main-02 .right .news .ul-list UL LI A:hover {
+	COLOR: #114472
+}
+.main-02 .right .news .ul-list UL LI SPAN {
+	FLOAT: right; DISPLAY: inline-block
+}
+.main-02 .right .news-02 {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .news-02 UL LI {
+	BACKGROUND: url(../images/tit-bg.jpg) no-repeat left bottom; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WIDTH: 689px
+}
+.main-02 .right .news-02 UL LI .time {
+	FONT-SIZE: 14px; FLOAT: left; TEXT-ALIGN: center; WIDTH: 90px
+}
+.main-02 .right .news-02 UL LI .time STRONG {
+	FONT-SIZE: 30px; DISPLAY: inline-block; LINE-HEIGHT: 30px; WIDTH: 100%
+}
+.main-02 .right .news-02 UL LI .time-txt {
+	FLOAT: right; WIDTH: 590px
+}
+.main-02 .right .news-02 UL LI .time-txt H3 {
+	FONT-SIZE: 16px; HEIGHT: 30px; COLOR: #000000
+}
+.main-02 .right .news-02 UL LI .time-txt H3 A {
+	COLOR: #000000
+}
+.main-02 .right .news-02 UL LI .time-txt H3 A:hover {
+	COLOR: #172053
+}
+.main-02 .right .news-02 UL LI .time-txt P {
+	FONT-SIZE: 13px
+}
+.main-02 .right .news-main H1 {
+	FONT-SIZE: 18px; BORDER-BOTTOM: #dedede 1px solid; COLOR: #073b6d; LINE-HEIGHT: 36px
+}
+.main-02 .right .news-main .s-title {
+	HEIGHT: 30px; POSITION: relative; DISPLAY: table; LINE-HEIGHT: 30px; WIDTH: 689px
+}
+.main-02 .right .news-main .s-title SPAN {
+	MARGIN-RIGHT: 30px
+}
+.main-02 .right .news-main .s-title .fontsize {
+	RIGHT: 5px; POSITION: absolute; TOP: 0px
+}
+.main-02 .right .news-main .s-title .fontsize A {
+	COLOR: #777777; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 2px; MARGIN: 0px 2px; DISPLAY: inline-block; PADDING-RIGHT: 2px
+}
+.main-02 .right .news-main .s-title .fontsize A:hover {
+	COLOR: #073b6d
+}
+.main-02 .right .news-main .s-txt {
+	FONT-SIZE: 12px; BORDER-TOP: #ebebeb 1px solid; BORDER-RIGHT: #ebebeb 1px solid; BACKGROUND: #f7f7f7 0px 0px; BORDER-BOTTOM: #ebebeb 1px solid; COLOR: #4c4c4c; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; BORDER-LEFT: #ebebeb 1px solid; MARGIN-TOP: 10px; PADDING-RIGHT: 20px; TEXT-INDENT: 2em
+}
+.main-02 .right .news-main .main-txt {
+	FONT-SIZE: 13px; COLOR: #4c4c4c; PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .news-main .main-txt P {
+	MARGIN-BOTTOM: 10px; TEXT-INDENT: 2em
+}
+.main-02 .right .news-main .bt-link {
+	BORDER-TOP: #ebebeb 1px solid; PADDING-TOP: 20px; PADDING-LEFT: 10px; MARGIN-TOP: 20px
+}
+.main-02 .right .news-main .bt-link OL {
+	BACKGROUND: url(../images/icon-12.jpg) no-repeat left 6px; PADDING-LEFT: 25px; DISPLAY: table
+}
+.main-02 .right .news-main .bt-link OL LI {
+	MARGIN-BOTTOM: 13px; FONT-SIZE: 14px; LINE-HEIGHT: 20px
+}
+.main-02 .right .news-main .bt-link OL LI A {
+	COLOR: #000000
+}
+.main-02 .right .industry-01 {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .industry-01 .industry-list DL {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 20px; HEIGHT: 154px; BACKGROUND: #f3f7f9 0px 0px; DISPLAY: table; WIDTH: 689px
+}
+.main-02 .right .industry-01 .industry-list DL DT {
+	HEIGHT: 154px; FLOAT: left; WIDTH: 275px
+}
+.main-02 .right .industry-01 .industry-list DL DT IMG {
+	HEIGHT: 154px; WIDTH: 275px
+}
+.main-02 .right .industry-01 .industry-list DL DD {
+	OVERFLOW: hidden; HEIGHT: 139px; POSITION: relative; FLOAT: right; PADDING-TOP: 15px; PADDING-RIGHT: 35px; WIDTH: 345px
+}
+.main-02 .right .industry-01 .industry-list DL .d-link {
+	POSITION: absolute; LEFT: 0px; BOTTOM: 10px
+}
+.main-02 .right .industry-01 .industry-list DL .d-link A {
+	HEIGHT: 20px; BACKGROUND: url(../images/icon_21.jpg) no-repeat left center; COLOR: #10426f; PADDING-LEFT: 15px; DISPLAY: inline-block; LINE-HEIGHT: 20px; MARGIN-RIGHT: 20px
+}
+.main-02 .right .industry-01 .industry-list DL .d-link A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .industry-01 .industry-main .contact {
+	FONT-SIZE: 13px; BORDER-TOP: #ebebeb 1px solid; BORDER-RIGHT: #ebebeb 1px solid; BACKGROUND: #f7f7f7 0px 0px; BORDER-BOTTOM: #ebebeb 1px solid; COLOR: #4a4a4a; PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LEFT: 15px; BORDER-LEFT: #ebebeb 1px solid; MARGIN-TOP: 20px; PADDING-RIGHT: 15px
+}
+.main-02 .right .industry-01 .industry-main .info {
+	MARGIN-TOP: 20px
+}
+.main-02 .right .industry-01 .industry-main H3 {
+	HEIGHT: 26px; BORDER-BOTTOM: #ebebeb 1px solid; COLOR: #0d4281; PADDING-LEFT: 10px; MARGIN-TOP: 20px; LINE-HEIGHT: 26px
+}
+.main-02 .right .industry-01 .industry-main .info P {
+	FONT-SIZE: 13px; COLOR: #4a4a4a; MARGIN-TOP: 10px; TEXT-INDENT: 2em
+}
+.main-02 .right .industry-01 .industry-main .pro {
+	OVERFLOW: hidden; WIDTH: 689px
+}
+.main-02 .right .industry-01 .industry-main .pro UL {
+	PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; DISPLAY: table; PADDING-RIGHT: 0px; WIDTH: 800px
+}
+.main-02 .right .industry-01 .industry-main .pro UL LI {
+	MARGIN-BOTTOM: 20px; BACKGROUND: #ebebeb 0px 0px; FLOAT: left; WIDTH: 190px; MARGIN-RIGHT: 59px
+}
+.main-02 .right .industry-01 .industry-main .pro UL LI A {
+	COLOR: #4c4c4c; TEXT-ALIGN: center; DISPLAY: inline-block
+}
+.main-02 .right .industry-01 .industry-main .pro UL LI IMG {
+	HEIGHT: 125px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; WIDTH: 187px
+}
+.main-02 .right .strategy {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .strategy P {
+	FONT-SIZE: 13px
+}
+.main-02 .right .strategy .strategy-list H2 {
+	HEIGHT: 30px; BACKGROUND: url(../images/h2-bg02.jpg) no-repeat left 29px; MARGIN-TOP: 20px; LINE-HEIGHT: 30px; WIDTH: 100%
+}
+.main-02 .right .strategy .strategy-list H2 STRONG {
+	BACKGROUND: url(../images/icon-10.jpg) no-repeat left center; FLOAT: left; FONT-WEIGHT: normal; PADDING-LEFT: 10px; DISPLAY: inline-block
+}
+.main-02 .right .strategy .strategy-list H2 A {
+	FONT-SIZE: 12px; HEIGHT: 36px; BACKGROUND: url(../images/icon_21.jpg) no-repeat left 12px; FLOAT: right; COLOR: #114472; PADDING-LEFT: 15px; DISPLAY: inline-block; LINE-HEIGHT: 36px
+}
+.main-02 .right .strategy .strategy-list H2 A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .strategy .strategy-list .main-txt {
+	FONT-SIZE: 13px; PADDING-TOP: 10px
+}
+.main-02 .right .strategy .strategy-list .main-txt P {
+	TEXT-INDENT: 2em
+}
+.main-02 .right .strategy .strategy-list .guwen {
+	OVERFLOW: hidden; WIDTH: 689px
+}
+.main-02 .right .strategy .strategy-list .guwen UL {
+	PADDING-TOP: 10px; DISPLAY: table; WIDTH: 1000px
+}
+.main-02 .right .strategy .strategy-list .guwen UL LI {
+	OVERFLOW: hidden; HEIGHT: 165px; FLOAT: left; WIDTH: 130px; MARGIN-RIGHT: 50px
+}
+.main-02 .right .strategy .strategy-list .guwen UL LI IMG {
+	HEIGHT: 140px; WIDTH: 130px
+}
+.main-02 .right .strategy .strategy-list .guwen UL LI A {
+	COLOR: #15437d; TEXT-ALIGN: center; DISPLAY: inline-block
+}
+.main-02 .right .strategy .strategy-list .guwen UL LI A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .strategy .strategy-list .guwen UL LI SPAN {
+	HEIGHT: 24px; BACKGROUND: #ebebeb 0px 0px; BORDER-BOTTOM: #15437d 2px solid; TEXT-ALIGN: center; DISPLAY: block; LINE-HEIGHT: 24px; WIDTH: 130px
+}
+.main-02 .right .strategy .strategy-list .guwen UL LI A:hover SPAN {
+	BORDER-BOTTOM: #ff7229 2px solid
+}
+.main-02 .right .strategy .strategy-list .hezuo {
+	OVERFLOW: hidden; WIDTH: 689px
+}
+.main-02 .right .strategy .strategy-list .hezuo UL {
+	PADDING-TOP: 20px; DISPLAY: table; WIDTH: 1000px
+}
+.main-02 .right .strategy .strategy-list .hezuo UL LI {
+	FLOAT: left; MARGIN-RIGHT: 21px
+}
+.main-02 .right .strategy .strategy-list .hezuo UL LI IMG {
+	HEIGHT: 110px; WIDTH: 156px
+}
+.main-02 .right .strategy .strategy-list .hezuo UL LI A {
+	COLOR: #15437d; TEXT-ALIGN: center; DISPLAY: inline-block
+}
+.main-02 .right .strategy .strategy-list .hezuo UL LI A SPAN {
+	HEIGHT: 24px; DISPLAY: block; LINE-HEIGHT: 24px
+}
+.main-02 .right .strategy .strategy-list .hezuo UL LI A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .strategy-01 {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .strategy-01 P {
+	MARGIN-BOTTOM: 10px
+}
+.main-02 .right .strategy-02 {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .strategy-02 .about-txt {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .strategy-02 .dl-list DL {
+	MARGIN-BOTTOM: 30px; DISPLAY: table; WIDTH: 689px
+}
+.main-02 .right .strategy-02 .dl-list DL DT {
+	FLOAT: left; WIDTH: 265px
+}
+.main-02 .right .strategy-02 .dl-list DL DT IMG {
+	BORDER-TOP: #ebebeb 1px solid; HEIGHT: 140px; BORDER-RIGHT: #ebebeb 1px solid; BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #ebebeb 1px solid; PADDING-RIGHT: 10px; WIDTH: 240px
+}
+.main-02 .right .strategy-02 .dl-list DL DD {
+	OVERFLOW: hidden; HEIGHT: 170px; FLOAT: right; WIDTH: 405px
+}
+.main-02 .right .strategy-02 .dl-list DL DD H3 {
+	HEIGHT: 30px; BORDER-BOTTOM: #ebebeb 1px solid; FONT-WEIGHT: bold; COLOR: #15437d; LINE-HEIGHT: 30px
+}
+.main-02 .right .strategy-02 .dl-list DL DD H3 A {
+	COLOR: #15437d
+}
+.main-02 .right .strategy-02 .dl-list DL DD H3 A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .strategy-02 .dl-list DL DD H3 SPAN {
+	MARGIN-RIGHT: 10px
+}
+.main-02 .right .strategy-02 .dl-list DL DD P {
+	MARGIN-TOP: 10px; TEXT-INDENT: 2em
+}
+.main-02 .right .strategy-03 {
+	OVERFLOW: hidden; PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WIDTH: 689px
+}
+.main-02 .right .strategy-03 .about-txt {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .strategy-03 .dl-list {
+	DISPLAY: table; WIDTH: 1000px
+}
+.main-02 .right .strategy-03 .dl-list DL {
+	BORDER-BOTTOM: #dadada 1px dashed; FLOAT: left; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; DISPLAY: table; PADDING-RIGHT: 0px; WIDTH: 325px; MARGIN-RIGHT: 35px
+}
+.main-02 .right .strategy-03 .dl-list DL DT {
+	OVERFLOW: hidden; HEIGHT: 140px; FLOAT: left; WIDTH: 130px
+}
+.main-02 .right .strategy-03 .dl-list DL DT IMG {
+	HEIGHT: 140px; WIDTH: 130px
+}
+.main-02 .right .strategy-03 .dl-list DL DD {
+	OVERFLOW: hidden; HEIGHT: 170px; FLOAT: right; WIDTH: 175px
+}
+.main-02 .right .strategy-03 .dl-list DL DD H3 {
+	MARGIN-BOTTOM: 5px; HEIGHT: 26px; BACKGROUND: #ebebeb 0px 0px; BORDER-BOTTOM: #15437d 2px solid; COLOR: #15437d; PADDING-LEFT: 10px; LINE-HEIGHT: 26px
+}
+.main-02 .right .strategy-03 .dl-list DL DD SPAN {
+	FONT-SIZE: 13px; HEIGHT: 26px; COLOR: #444444; PADDING-LEFT: 10px; DISPLAY: none; LINE-HEIGHT: 26px
+}
+.main-02 .right .strategy-03 .dl-list DL DD P {
+	TEXT-INDENT: 2em
+}
+.main-02 .right .strategy-03 .page {
+	MARGIN-TOP: 30px
+}
+.main-02 .right .strategy-04 .strategy-04-main UL {
+	DISPLAY: table; WIDTH: 750px
+}
+.main-02 .right .strategy-04 .strategy-04-main LI {
+	FLOAT: left; MARGIN-TOP: 15px; WIDTH: 190px; MARGIN-RIGHT: 45px
+}
+.main-02 .right .strategy-04 .strategy-04-main LI IMG {
+	BORDER-TOP: #d4d4d4 1px solid; HEIGHT: 116px; BORDER-RIGHT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #d4d4d4 1px solid; PADDING-RIGHT: 4px; WIDTH: 180px
+}
+.main-02 .right .strategy-04 .strategy-04-main LI SPAN {
+	FONT-SIZE: 13px; HEIGHT: 36px; TEXT-ALIGN: center; MARGIN-TOP: 5px; DISPLAY: block; LINE-HEIGHT: 18px
+}
+.main-02 .right .strategy-04 .strategy-04-main LI A {
+	COLOR: #777777
+}
+.main-02 .right .strategy-04 .strategy-04-main LI A:hover {
+	COLOR: #172053
+}
+.main-02 .right .strategy-05 {
+	FONT-SIZE: 13px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .strategy-05 H2 {
+	BACKGROUND: url(../images/tit-bg.jpg) no-repeat left bottom; FONT-WEIGHT: bold; COLOR: #114472; MARGIN-TOP: 20px; LINE-HEIGHT: 26px
+}
+.main-02 .right .strategy-05 .qs-info {
+	PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .strategy-05 .qs-info DL {
+	HEIGHT: 145px; BACKGROUND: #f3f7fa 0px 0px; PADDING-BOTTOM: 30px; PADDING-TOP: 30px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px; WIDTH: 609px
+}
+.main-02 .right .strategy-05 .qs-info DL DT {
+	HEIGHT: 145px; FLOAT: left; WIDTH: 120px
+}
+.main-02 .right .strategy-05 .qs-info DL DD {
+	OVERFLOW: hidden; FONT-SIZE: 13px; HEIGHT: 145px; FLOAT: right; WIDTH: 445px
+}
+.main-02 .right .culture {
+	OVERFLOW: hidden; PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WIDTH: 689px
+}
+.main-02 .right .culture .culture-top DL {
+	MARGIN-BOTTOM: 30px; CLEAR: both; DISPLAY: table; WIDTH: 689px
+}
+.main-02 .right .culture .culture-top DL DT {
+	FLOAT: left; WIDTH: 60px
+}
+.main-02 .right .culture .culture-top DL DT IMG {
+	BORDER-TOP: #cdcdcd 1px solid; HEIGHT: 60px; BORDER-RIGHT: #cdcdcd 1px solid; BORDER-BOTTOM: #cdcdcd 1px solid; BORDER-LEFT: #cdcdcd 1px solid; WIDTH: 60px
+}
+.main-02 .right .culture .culture-top DL DD {
+	FLOAT: right; WIDTH: 600px
+}
+.main-02 .right .culture .culture-top DL DD H3 {
+	FONT-SIZE: 15px; HEIGHT: 30px; BORDER-BOTTOM: #363636 1px dashed; COLOR: #ff6f25; LINE-HEIGHT: 30px
+}
+.main-02 .right .culture .culture-top DL DD SPAN {
+	HEIGHT: 30px; COLOR: #000000; LINE-HEIGHT: 30px; MARGIN-RIGHT: 10px
+}
+.main-02 .right .culture .culture-mian H2 {
+	HEIGHT: 30px; BACKGROUND: url(../images/tit-bg.jpg) no-repeat left bottom; PADDING-LEFT: 10px; CLEAR: both; MARGIN-TOP: 5px; LINE-HEIGHT: 30px; WIDTH: 679px
+}
+.main-02 .right .culture .culture-mian H2 STRONG {
+	BACKGROUND: url(../images/icon-10.jpg) no-repeat left center; FLOAT: left; FONT-WEIGHT: normal; PADDING-LEFT: 10px; DISPLAY: inline-block
+}
+.main-02 .right .culture .culture-mian H2 A {
+	FONT-SIZE: 12px; HEIGHT: 36px; BACKGROUND: url(../images/icon_21.jpg) no-repeat left 12px; FLOAT: right; COLOR: #114472; PADDING-LEFT: 15px; DISPLAY: inline-block; LINE-HEIGHT: 36px
+}
+.main-02 .right .culture .culture-mian H2 A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .culture .culture-mian .jianshe P {
+	FONT-SIZE: 13px; MARGIN-TOP: 10px; TEXT-INDENT: 2em
+}
+.main-02 .right .culture .huodong {
+	HEIGHT: 130px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; DISPLAY: table; PADDING-RIGHT: 0px; WIDTH: 689px
+}
+.main-02 .right .culture .huodong OL {
+	FLOAT: right; WIDTH: 460px
+}
+.main-02 .right .culture .huodong OL LI {
+	HEIGHT: 24px; BORDER-BOTTOM: #ebebeb 1px dashed; LINE-HEIGHT: 24px
+}
+.main-02 .right .culture .huodong OL LI A {
+	FONT-SIZE: 13px; COLOR: #003568; MARGIN-RIGHT: 15px
+}
+.main-02 .right .culture .huodong OL LI A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .culture #focus {
+	OVERFLOW: hidden; HEIGHT: 129px; POSITION: relative; FLOAT: left; WIDTH: 196px
+}
+.main-02 .right .culture #focus UL {
+	HEIGHT: 225px; POSITION: absolute
+}
+.main-02 .right .culture #focus UL LI {
+	OVERFLOW: hidden; HEIGHT: 129px; BACKGROUND: #000000 0px 0px; POSITION: relative; FLOAT: left; WIDTH: 196px
+}
+.main-02 .right .culture #focus UL LI DIV {
+	OVERFLOW: hidden; POSITION: absolute
+}
+.main-02 .right .culture #focus .btnBg {
+	HEIGHT: 18px; BACKGROUND: #000000 0px 0px; POSITION: absolute; LEFT: 0px; WIDTH: 196px; BOTTOM: 0px
+}
+.main-02 .right .culture #focus .btn {
+	HEIGHT: 18px; POSITION: absolute; TEXT-ALIGN: right; LEFT: 0px; WIDTH: 196px; BOTTOM: 0px
+}
+.main-02 .right .culture #focus .btn SPAN {
+	CURSOR: pointer; FONT-SIZE: 12px; HEIGHT: 18px; FONT-FAMILY: "Microsoft YaHei",SimHei; COLOR: #ffffff; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 7px; BORDER-LEFT: #f2f2f2 1px solid; DISPLAY: inline-block; LINE-HEIGHT: 18px; PADDING-RIGHT: 7px
+}
+.main-02 .right .culture #focus .btn SPAN.on {
+	BACKGROUND: #000000 0px 0px; COLOR: #ffcccc
+}
+.main-02 .right .culture .download {
+	PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; DISPLAY: table; PADDING-RIGHT: 0px; WIDTH: 1000px
+}
+.main-02 .right .culture .download DL {
+	HEIGHT: 140px; FLOAT: left; DISPLAY: table; WIDTH: 205px; MARGIN-RIGHT: 30px
+}
+.main-02 .right .culture .download DL DT {
+	HEIGHT: 140px; FLOAT: left; WIDTH: 110px
+}
+.main-02 .right .culture .download DL DT IMG {
+	BORDER-TOP: #cdcdcd 1px solid; HEIGHT: 137px; BORDER-RIGHT: #cdcdcd 1px solid; BORDER-BOTTOM: #cdcdcd 1px solid; BORDER-LEFT: #cdcdcd 1px solid; WIDTH: 107px
+}
+.main-02 .right .culture .download DL DD {
+	FLOAT: right; WIDTH: 85px
+}
+.main-02 .right .culture .download DL DD H3 {
+	COLOR: #ff6f25; MARGIN-TOP: 10px
+}
+.main-02 .right .culture .download DL DD SPAN {
+	DISPLAY: block
+}
+.main-02 .right .culture .download DL DD A {
+	HEIGHT: 24px; BACKGROUND: url(../images/icon-30.jpg) #104381 no-repeat 62px center; COLOR: #ffffff; PADDING-LEFT: 8px; MARGIN-TOP: 5px; DISPLAY: inline-block; LINE-HEIGHT: 24px; PADDING-RIGHT: 15px
+}
+.main-02 .right .culture .video {
+	OVERFLOW: hidden; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WIDTH: 689px
+}
+.main-02 .right .culture .video UL {
+	DISPLAY: table; WIDTH: 1000px
+}
+.main-02 .right .culture .video LI {
+	MARGIN-BOTTOM: 15px; FLOAT: left; WIDTH: 190px; MARGIN-RIGHT: 58px
+}
+.main-02 .right .culture .video UL LI IMG {
+	BORDER-TOP: #d4d4d4 1px solid; HEIGHT: 116px; BORDER-RIGHT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #d4d4d4 1px solid; PADDING-RIGHT: 4px; WIDTH: 180px
+}
+.main-02 .right .culture .video UL LI A {
+	COLOR: #777777
+}
+.main-02 .right .culture .video UL LI A:hover {
+	COLOR: #172053
+}
+.main-02 .right .culture .video UL LI SPAN {
+	FONT-SIZE: 13px; TEXT-ALIGN: center; MARGIN-TOP: 5px; DISPLAY: block; LINE-HEIGHT: 18px
+}
+.main-02 .right .culture .pic {
+	OVERFLOW: hidden; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WIDTH: 689px
+}
+.main-02 .right .culture .pic UL {
+	DISPLAY: table; WIDTH: 1000px
+}
+.main-02 .right .culture .pic LI {
+	MARGIN-BOTTOM: 15px; FLOAT: left; WIDTH: 190px; MARGIN-RIGHT: 58px
+}
+.main-02 .right .culture .pic UL LI IMG {
+	BORDER-TOP: #d4d4d4 1px solid; HEIGHT: 116px; BORDER-RIGHT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #d4d4d4 1px solid; PADDING-RIGHT: 4px; WIDTH: 180px
+}
+.main-02 .right .culture .pic UL LI SPAN {
+	FONT-SIZE: 13px; TEXT-ALIGN: center; MARGIN-TOP: 5px; DISPLAY: block; LINE-HEIGHT: 18px
+}
+.main-02 .right .culture .pic UL LI A {
+	COLOR: #777777
+}
+.main-02 .right .culture .pic UL LI A:hover {
+	COLOR: #172053
+}
+.main-02 .right .culture-01 DL {
+	MARGIN-BOTTOM: 30px; CLEAR: both; DISPLAY: table; WIDTH: 689px
+}
+.main-02 .right .culture-01 {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .culture-01 DL {
+	MARGIN-BOTTOM: 30px; FONT-SIZE: 14px; CLEAR: both; DISPLAY: table; WIDTH: 689px
+}
+.main-02 .right .culture-01 DL DT {
+	FLOAT: left; WIDTH: 62px
+}
+.main-02 .right .culture-01 DL DT IMG {
+	BORDER-TOP: #cdcdcd 1px solid; HEIGHT: 62px; BORDER-RIGHT: #cdcdcd 1px solid; BORDER-BOTTOM: #cdcdcd 1px solid; BORDER-LEFT: #cdcdcd 1px solid; WIDTH: 62px
+}
+.main-02 .right .culture-01 DL DD {
+	FLOAT: right; WIDTH: 600px
+}
+.main-02 .right .culture-01 DL DD H3 {
+	FONT-SIZE: 15px; HEIGHT: 30px; BORDER-BOTTOM: #363636 1px dashed; COLOR: #ff6f25; LINE-HEIGHT: 30px
+}
+.main-02 .right .culture-01 DL DD SPAN {
+	HEIGHT: 30px; COLOR: #000000; LINE-HEIGHT: 30px; MARGIN-RIGHT: 10px
+}
+.main-02 .right .culture-01 DL.right DT {
+	FLOAT: right
+}
+.main-02 .right .culture-01 DL.right DD {
+	FLOAT: left; TEXT-ALIGN: right
+}
+.main-02 .right .culture-01 DL.right DD SPAN {
+	MARGIN: 0px 0px 0px 10px
+}
+.main-02 .right .culture-02 {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .culture-02 DL {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 60px; FONT-SIZE: 13px; HEIGHT: 140px
+}
+.main-02 .right .culture-02 DL DT {
+	FLOAT: left; WIDTH: 220px
+}
+.main-02 .right .culture-02 DL DT IMG {
+	BORDER-TOP: #d4d4d4 1px solid; HEIGHT: 130px; BORDER-RIGHT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #d4d4d4 1px solid; PADDING-RIGHT: 4px; WIDTH: 195px
+}
+.main-02 .right .culture-02 DL DD {
+	FLOAT: right; WIDTH: 465px
+}
+.main-02 .right .culture-02 DL DD H3 {
+	MARGIN-BOTTOM: 7px; FONT-SIZE: 15px; BORDER-BOTTOM: #d4d4d4 1px solid; FONT-WEIGHT: bold; COLOR: #346fb6; LINE-HEIGHT: 30px
+}
+.main-02 .right .culture-02 DL DD H3 A {
+	COLOR: #346fb6
+}
+.main-02 .right .culture-02 DL DD P {
+	TEXT-INDENT: 2em
+}
+.main-02 .right .culture-02 .dl2 DT {
+	FLOAT: right; TEXT-ALIGN: right
+}
+.main-02 .right .culture-02 .dl2 DD {
+	FLOAT: left
+}
+.main-02 .right .culture-02 .show-top {
+	FONT-SIZE: 13px; BORDER-TOP: #ebebeb 1px solid; BORDER-RIGHT: #ebebeb 1px solid; BACKGROUND: #f7f7f7 0px 0px; BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; MARGIN: 20px 0px; BORDER-LEFT: #ebebeb 1px solid; PADDING-RIGHT: 20px; TEXT-INDENT: 2em
+}
+.main-02 .right .culture-03 {
+	OVERFLOW: hidden; PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .culture-03 UL {
+	DISPLAY: table; WIDTH: 110%
+}
+.main-02 .right .culture-03 UL LI {
+	MARGIN-BOTTOM: 15px; FLOAT: left; WIDTH: 190px; MARGIN-RIGHT: 58px
+}
+.main-02 .right .culture-03 UL LI A {
+	COLOR: #000000; DISPLAY: inline-block
+}
+.main-02 .right .culture-03 UL LI A SPAN {
+	FONT-SIZE: 13px; TEXT-ALIGN: center; MARGIN-TOP: 5px; DISPLAY: block; LINE-HEIGHT: 18px
+}
+.main-02 .right .culture-03 UL LI IMG {
+	BORDER-TOP: #d4d4d4 1px solid; HEIGHT: 116px; BORDER-RIGHT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #d4d4d4 1px solid; PADDING-RIGHT: 4px; WIDTH: 180px
+}
+.main-02 .right .culture-03 .page {
+	TEXT-ALIGN: center
+}
+.main-02 .right .culture-04 {
+	OVERFLOW: hidden; PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .culture-04 UL {
+	DISPLAY: table; WIDTH: 1000px
+}
+.main-02 .right .culture-04 UL LI {
+	MARGIN-BOTTOM: 30px; BORDER-TOP: #cdcdcd 1px solid; BORDER-RIGHT: #cdcdcd 1px solid; BORDER-BOTTOM: #cdcdcd 1px solid; FLOAT: left; BORDER-LEFT: #cdcdcd 1px solid; WIDTH: 330px; MARGIN-RIGHT: 24px
+}
+.main-02 .right .culture-04 UL LI DL {
+	PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LEFT: 15px; DISPLAY: table; PADDING-RIGHT: 15px; WIDTH: 300px
+}
+.main-02 .right .culture-04 UL LI DL DT {
+	HEIGHT: 156px; FLOAT: left; WIDTH: 120px
+}
+.main-02 .right .culture-04 UL LI DL DT IMG {
+	HEIGHT: 156px; WIDTH: 120px
+}
+.main-02 .right .culture-04 UL LI DL DD H3 {
+	FONT-WEIGHT: bold; COLOR: #328ade
+}
+.main-02 .right .culture-04 UL LI DL DD {
+	FLOAT: right; WIDTH: 160px
+}
+.main-02 .right .culture-04 UL LI DL DD P {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .culture-04 UL LI DL DD SPAN {
+	DISPLAY: block
+}
+.main-02 .right .culture-04 UL LI DL DD A {
+	HEIGHT: 24px; BACKGROUND: url(../images/icon-30.jpg) #104381 no-repeat 62px center; COLOR: #ffffff; PADDING-LEFT: 8px; DISPLAY: inline-block; LINE-HEIGHT: 24px; PADDING-RIGHT: 15px
+}
+.main-02 .right .culture-04 .page {
+	TEXT-ALIGN: center
+}
+.main-02 .right .culture-05 {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .culture-05 UL {
+	DISPLAY: table; WIDTH: 800px
+}
+.main-02 .right .culture-05 LI {
+	MARGIN-BOTTOM: 15px; FLOAT: left; WIDTH: 190px; MARGIN-RIGHT: 58px
+}
+.main-02 .right .culture-05 UL LI IMG {
+	BORDER-TOP: #d4d4d4 1px solid; HEIGHT: 116px; BORDER-RIGHT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #d4d4d4 1px solid; PADDING-RIGHT: 4px; WIDTH: 180px
+}
+.main-02 .right .culture-05 UL LI SPAN {
+	FONT-SIZE: 13px; TEXT-ALIGN: center; MARGIN-TOP: 5px; DISPLAY: block; LINE-HEIGHT: 18px
+}
+.main-02 .right .culture-05 UL LI A {
+	COLOR: #777777
+}
+.main-02 .right .culture-05 UL LI A:hover {
+	COLOR: #172053
+}
+.main-02 .right .culture-05 .page {
+	TEXT-ALIGN: center
+}
+.main-02 .right .culture-06 UL LI IMG {
+	BORDER-TOP: #d4d4d4 1px solid; HEIGHT: 116px; BORDER-RIGHT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #d4d4d4 1px solid; PADDING-RIGHT: 4px; WIDTH: 180px
+}
+.main-02 .right .culture-06-01 {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .culture-06-01 .video-show {
+	MARGIN: 0px auto; WIDTH: 570px
+}
+.main-02 .right .culture-06-01 .jianjie {
+	FONT-SIZE: 16px; COLOR: #0d4281; TEXT-ALIGN: center; LINE-HEIGHT: 35px
+}
+.main-02 .right .responsibility {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .responsibility H2 {
+	HEIGHT: 30px; BACKGROUND: url(../images/tit-bg.jpg) no-repeat left bottom; PADDING-LEFT: 5px; CLEAR: both; LINE-HEIGHT: 30px; WIDTH: 679px
+}
+.main-02 .right .responsibility H2 STRONG {
+	BACKGROUND: url(../images/icon-10.jpg) no-repeat left center; FLOAT: left; FONT-WEIGHT: normal; PADDING-LEFT: 10px; DISPLAY: inline-block
+}
+.main-02 .right .responsibility H2 A {
+	FONT-SIZE: 12px; HEIGHT: 36px; BACKGROUND: url(../images/icon_21.jpg) no-repeat left 12px; FLOAT: right; COLOR: #114472; PADDING-LEFT: 15px; DISPLAY: inline-block; LINE-HEIGHT: 36px
+}
+.main-02 .right .responsibility H2 A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .responsibility DL {
+	MARGIN-BOTTOM: 20px; BORDER-TOP: #ebebeb 1px solid; BORDER-RIGHT: #ebebeb 1px solid; BACKGROUND: #f7f7f7 0px 0px; BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #ebebeb 1px solid; MARGIN-TOP: 10px; DISPLAY: table; PADDING-RIGHT: 10px; WIDTH: 662px
+}
+.main-02 .right .responsibility DL DT {
+	OVERFLOW: hidden; HEIGHT: 116px; FLOAT: left; WIDTH: 260px
+}
+.main-02 .right .responsibility DL DT IMG {
+	HEIGHT: 116px; WIDTH: 260px
+}
+.main-02 .right .responsibility DL DD {
+	FLOAT: right; WIDTH: 380px
+}
+.main-02 .right .responsibility DL DD P {
+	FONT-SIZE: 13px; TEXT-INDENT: 2em
+}
+.main-02 .right .responsibility-01 .info {
+	BORDER-TOP: #ebebeb 1px solid; BORDER-RIGHT: #ebebeb 1px solid; BACKGROUND: #f7f7f7 0px 0px; BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; BORDER-LEFT: #ebebeb 1px solid; PADDING-RIGHT: 20px
+}
+.main-02 .right .responsibility-01 {
+	OVERFLOW: hidden; PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .responsibility-01 .info P {
+	FONT-SIZE: 13px; TEXT-INDENT: 2em
+}
+.main-02 .right .responsibility-01 H2 {
+	FONT-SIZE: 13px; HEIGHT: 26px; BACKGROUND: url(../images/h2-bg-02.jpg) no-repeat left bottom; FONT-WEIGHT: bold; COLOR: #002973; PADDING-LEFT: 10px; MARGIN-TOP: 20px; LINE-HEIGHT: 26px
+}
+.main-02 .right .responsibility-01 .info-txt {
+	FONT-SIZE: 13px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .responsibility-01 .info-txt UL {
+	WIDTH: 800px
+}
+.main-02 .right .responsibility-01 .info-txt UL LI {
+	FLOAT: left; MARGIN: 10px 50px 10px 0px; WIDTH: 195px
+}
+.main-02 .right .responsibility-01 .info-txt UL LI IMG {
+	BORDER-TOP: #ebebeb 1px solid; HEIGHT: 116px; BORDER-RIGHT: #ebebeb 1px solid; BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #ebebeb 1px solid; PADDING-RIGHT: 5px; WIDTH: 180px
+}
+.main-02 .right .responsibility-01 .info-txt UL LI A {
+	COLOR: #002973; TEXT-ALIGN: center; DISPLAY: inline-block
+}
+.main-02 .right .responsibility-01 .info-txt UL LI A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .resources {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .resources .resources-top DL {
+	MARGIN-BOTTOM: 30px; CLEAR: both; DISPLAY: table; WIDTH: 689px
+}
+.main-02 .right .resources .resources-top DL DT {
+	FLOAT: left; WIDTH: 60px
+}
+.main-02 .right .resources .resources-top DL DT IMG {
+	BORDER-TOP: #cdcdcd 1px solid; HEIGHT: 60px; BORDER-RIGHT: #cdcdcd 1px solid; BORDER-BOTTOM: #cdcdcd 1px solid; BORDER-LEFT: #cdcdcd 1px solid; WIDTH: 60px
+}
+.main-02 .right .resources .resources-top DL DD {
+	FLOAT: right; WIDTH: 600px
+}
+.main-02 .right .resources .resources-top DL DD H3 {
+	FONT-SIZE: 15px; HEIGHT: 30px; BORDER-BOTTOM: #363636 1px dashed; COLOR: #ff6f25; LINE-HEIGHT: 30px
+}
+.main-02 .right .resources .resources-top DL DD SPAN {
+	HEIGHT: 30px; COLOR: #000000; LINE-HEIGHT: 30px; MARGIN-RIGHT: 10px
+}
+.main-02 .right .resources .jianshe {
+	HEIGHT: 148px; BACKGROUND: url(../images/rc-bg.jpg) #e7f2f7 no-repeat right center; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; CLEAR: both; DISPLAY: table; PADDING-RIGHT: 20px; WIDTH: 649px
+}
+.main-02 .right .resources .jianjie-txt {
+	WIDTH: 390px
+}
+.main-02 .right .resources .jianjie-txt H2 {
+	HEIGHT: 30px; LINE-HEIGHT: 30px
+}
+.main-02 .right .resources .jianjie-txt P {
+	FONT-SIZE: 13px; COLOR: #000000
+}
+.main-02 .right .resources .jianjie-txt A {
+	HEIGHT: 20px; BACKGROUND: url(../images/icon_21.jpg) no-repeat left center; COLOR: #10426f; PADDING-LEFT: 15px; MARGIN-TOP: 10px; DISPLAY: inline-block; LINE-HEIGHT: 20px
+}
+.main-02 .right .resources .jianjie-txt A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .resources .job H2 {
+	HEIGHT: 30px; BACKGROUND: url(../images/tit-bg.jpg) no-repeat left bottom; PADDING-LEFT: 10px; CLEAR: both; MARGIN-TOP: 20px; LINE-HEIGHT: 30px; WIDTH: 679px
+}
+.main-02 .right .resources .job H2 STRONG {
+	BACKGROUND: url(../images/icon-10.jpg) no-repeat left center; FLOAT: left; FONT-WEIGHT: normal; PADDING-LEFT: 10px; DISPLAY: inline-block
+}
+.main-02 .right .resources .job H2 A {
+	FONT-SIZE: 12px; HEIGHT: 36px; BACKGROUND: url(../images/icon_21.jpg) no-repeat left 12px; FLOAT: right; COLOR: #114472; PADDING-LEFT: 15px; DISPLAY: inline-block; LINE-HEIGHT: 36px
+}
+.main-02 .right .resources .job H2 A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .resources .job TABLE {
+	MARGIN: 20px 0px
+}
+.main-02 .right .resources .job TABLE A {
+	COLOR: #000000
+}
+.main-02 .right .resources .job TABLE A:hover {
+	COLOR: #0d4281
+}
+.main-02 .right .resources .job TABLE TH {
+	FONT-SIZE: 13px; BORDER-TOP: #c6c6c6 1px solid; HEIGHT: 28px; BACKGROUND: #f7f7f7 0px 0px; BORDER-BOTTOM: #c6c6c6 1px solid; COLOR: #000000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 28px; PADDING-RIGHT: 10px
+}
+.main-02 .right .resources .job TABLE TD {
+	FONT-SIZE: 12px; HEIGHT: 30px; BORDER-BOTTOM: #c6c6c6 1px dashed; COLOR: #777777; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 30px; PADDING-RIGHT: 10px
+}
+.main-02 .right .resources-01 .resources-top DL {
+	MARGIN-BOTTOM: 30px; CLEAR: both; DISPLAY: table; WIDTH: 689px
+}
+.main-02 .right .resources-01 .resources-top DL DT {
+	FLOAT: left; WIDTH: 60px
+}
+.main-02 .right .resources-01 .resources-top DL DT IMG {
+	BORDER-TOP: #cdcdcd 1px solid; HEIGHT: 60px; BORDER-RIGHT: #cdcdcd 1px solid; BORDER-BOTTOM: #cdcdcd 1px solid; BORDER-LEFT: #cdcdcd 1px solid; WIDTH: 60px
+}
+.main-02 .right .resources-01 .resources-top DL DD {
+	FLOAT: right; COLOR: #000; WIDTH: 600px
+}
+.main-02 .right .resources-01 .resources-top DL DD H3 {
+	FONT-SIZE: 15px; HEIGHT: 30px; BORDER-BOTTOM: #363636 1px dashed; COLOR: #ff6f25; LINE-HEIGHT: 30px
+}
+.main-02 .right .resources-01 .resources-top DL DD SPAN {
+	HEIGHT: 30px; COLOR: #000000; LINE-HEIGHT: 30px; MARGIN-RIGHT: 10px
+}
+.main-02 .right .resources-01 .resources-top DL DD P {
+	HEIGHT: 30px; COLOR: #000000; LINE-HEIGHT: 30px; MARGIN-RIGHT: 10px
+}
+.main-02 .right .resources-02 P {
+	MARGIN-BOTTOM: 10px
+}
+.main-02 .right .resources-02 H3 {
+	MARGIN-BOTTOM: 10px; HEIGHT: 24px; BORDER-BOTTOM: #ebebeb 1px solid; FONT-WEIGHT: bold; COLOR: #346fb6; PADDING-LEFT: 10px; LINE-HEIGHT: 24px
+}
+.main-02 .right .resources-03 {
+	PADDING-BOTTOM: 40px
+}
+.main-02 .right .resources-03 DL {
+	FONT-SIZE: 13px; BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; CLEAR: both; DISPLAY: table; PADDING-RIGHT: 0px; WIDTH: 689px
+}
+.main-02 .right .resources-03 DL DT {
+	FLOAT: left; WIDTH: 205px
+}
+.main-02 .right .resources-03 DL DT IMG {
+	BORDER-TOP: #ebebeb 1px solid; HEIGHT: 139px; BORDER-RIGHT: #ebebeb 1px solid; BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #ebebeb 1px solid; PADDING-RIGHT: 4px; WIDTH: 206px
+}
+.main-02 .right .resources-03 DL DD {
+	FLOAT: right; WIDTH: 455px
+}
+.main-02 .right .resources-03 DL DD P {
+	OVERFLOW: hidden; HEIGHT: 72px; MIN-HEIGHT: 72px
+}
+.main-02 .right .resources-03 DL DD H3 {
+	FONT-WEIGHT: bold; COLOR: #000000
+}
+.main-02 .right .resources-03 DL DD H3 A {
+	FONT-SIZE: 15px; BACKGROUND: 0px 0px; FONT-WEIGHT: bold; COLOR: #777777; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .resources-03 DL DD H3 A:hover {
+	COLOR: #114472
+}
+.main-02 .right .resources-03 DL DD A {
+	FONT-SIZE: 12px; HEIGHT: 36px; BACKGROUND: url(../images/icon_21.jpg) no-repeat left 12px; COLOR: #114472; PADDING-LEFT: 15px; DISPLAY: inline-block; LINE-HEIGHT: 36px
+}
+.main-02 .right .resources-03 DL DD A:hover {
+	COLOR: #ff7229
+}
+.main-02 .right .resources-05 {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .resources-05 P {
+	FONT-SIZE: 13px
+}
+.main-02 .right .resources-05 .job-btn {
+	MARGIN: 20px 0px
+}
+.main-02 .right .resources-05 .job-btn A {
+	HEIGHT: 24px; BACKGROUND: url(../images/icon-30.jpg) #0d4281 no-repeat 10px center; COLOR: #ffffff; PADDING-LEFT: 20px; DISPLAY: inline-block; LINE-HEIGHT: 24px; PADDING-RIGHT: 15px
+}
+.main-02 .right .relations {
+	OVERFLOW: hidden
+}
+.main-02 .right .relations .relations-top {
+	PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .relations .relations-top H2 {
+	FONT-SIZE: 15px; COLOR: #000
+}
+.main-02 .right .relations .relations-top H2 STRONG {
+	FONT-SIZE: 15px
+}
+.main-02 .right .relations .tabs .newsxxk .items UL {
+	WIDTH: auto
+}
+.main-02 .right .relations .tabs .newsxxk .items UL LI {
+	BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: auto; DISPLAY: block; PADDING-RIGHT: 0px; WIDTH: 680px
+}
+.main-02 .right .relations .tabs .newsxxk .items UL LI .time {
+	FONT-SIZE: 12px; COLOR: #777777; MARGIN-LEFT: 20px; DISPLAY: inline-block
+}
+.main-02 .right .relations .tabs .newsxxk .items UL LI A {
+	COLOR: #000000
+}
+.main-02 .right .relations .tabs .newsxxk .items UL LI SPAN {
+	FONT-SIZE: 12px; BACKGROUND: url(../images/icon-29.jpg) no-repeat left 4px; MIN-WIDTH: 14px; COLOR: #000000; TEXT-ALIGN: left; PADDING-LEFT: 18px; MARGIN-LEFT: 15px; MIN-HEIGHT: 17px; DISPLAY: inline-block; LINE-HEIGHT: 24px
+}
+.main-02 .right .part {
+	FONT-SIZE: 13px; PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .part H2 {
+	HEIGHT: 28px; BORDER-BOTTOM: #ebebeb 1px solid; FONT-WEIGHT: bold; COLOR: #777777; MARGIN: 5px 0px; LINE-HEIGHT: 28px
+}
+.main-02 .right .part P {
+	MARGIN-BOTTOM: 10px; FONT-SIZE: 13px
+}
+.main-02 .right .part-03 {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .part-03 UL LI {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .part-03 UL LI H3 {
+	BORDER-BOTTOM: #ebebeb 1px solid; FONT-WEIGHT: bold
+}
+.main-02 .right .part-03 UL LI A {
+	FONT-SIZE: 13px; WHITE-SPACE: nowrap; COLOR: #777777; DISPLAY: inline-block; MARGIN-RIGHT: 10px
+}
+.main-02 .right .part-03 UL LI A:hover {
+	COLOR: #172053
+}
+.main-02 .right .part-03 UL LI DIV {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .part-04 {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .part-04 UL LI {
+	BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .part-04 UL LI H3 {
+	FONT-WEIGHT: bold
+}
+.title2 {
+	HEIGHT: 72px; BACKGROUND: #13427b 0px 0px; COLOR: #ffffff; WIDTH: 217px; opacity: 0.9
+}
+.title2 H2 {
+	FONT-SIZE: 18px; FONT-WEIGHT: normal; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 23px; PADDING-RIGHT: 23px
+}
+.title2 H2 SPAN {
+	FONT-SIZE: 12px; DISPLAY: block
+}
+.main-02 .right .search-info {
+	PADDING-BOTTOM: 30px; PADDING-TOP: 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.main-02 .right .search-info .ul-list {
+	MARGIN-TOP: 0px
+}
