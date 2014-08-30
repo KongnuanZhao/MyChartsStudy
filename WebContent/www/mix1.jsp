@@ -39,7 +39,7 @@ if(myValue.endsWith("整体")){
 }
 
 %>
-     <div id="main" style="height:400px;width:80%;border:1px solid #ccc;padding :10px"></div>
+     <div id="main"></div>
     
     <script type="text/javascript">
     require.config({

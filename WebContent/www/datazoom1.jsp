@@ -7,7 +7,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>ECharts</title>
+    <title>价格走势</title>
     <script src="./js/esl.js"></script>
      <link href="./css/page.css" rel="stylesheet" type="text/css"/> 
      <script type="text/javascript" src="./asset/js/jquery.min.js"></script>
@@ -49,7 +49,7 @@
   </ul></div>
   </div><!-- end of the header -->
 </div>
-     <div id="main" style="height:400px;width:80%;border:1px solid #ccc;padding :10px"></div>
+     <div id="main"></div>
     <div id ="bottom" style="text-align:right"><a href="./index.html"><img src="img/图标2.png" title="返回首页"></img></a></div>
      <%
     JSONTest jsTest=new JSONTest();

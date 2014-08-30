@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>CPI比例</title>
     <script src="./js/esl.js"></script>
      <script src="./js/pie.js"></script>
      <script src="./js/pie1.js"></script>
@@ -51,7 +51,7 @@
    <a class="nav-a" href="#">关于更多</a> </li>
   </ul></div>
   </div><!-- end of the header --></div>
-    <div id="main" style="height:400px;width:85%;border:1px solid #ccc;padding :10px"></div>
+    <div id="main"></div>
     
     <br/></br>
     <div class="menu">

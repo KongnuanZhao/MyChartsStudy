@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>ECharts</title>
+    <title>全国商品价格</title>
     <script src="js/esl.js"></script>
      <link href="./css/page.css" rel="stylesheet" type="text/css"/>
      <script type="text/javascript" src="./asset/js/jquery.min.js"></script>
@@ -51,7 +51,7 @@
 
 <a href="./mix3.jsp">点此查看省市级价格分布情况</a>
 <br/><br/>
-     <div id="main" style="height:400px;width:80%;border:1px solid #ccc;padding :10px"></div>
+     <div id="main"></div>
      <div id ="bottom" style="text-align:right"><a href="./index.html"><img src="img/图标2.png" title="返回首页"></img></a></div>
     <script type="text/javascript">
     

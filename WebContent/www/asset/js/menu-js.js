@@ -56,7 +56,7 @@ $(function() {
 	
 	
 	function showPics(index) { 
-		var nowLeft = -index*sWidth; ֵ
+		var nowLeft = -index*sWidth;
 		$("#focus ul").stop(true,false).animate({"left":nowLeft},500);
 		$("#focus .btn span").removeClass("on").eq(index).addClass("on"); 
 	}

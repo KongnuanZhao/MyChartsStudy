@@ -12,9 +12,9 @@
     <script src="./js/esl.js"></script>
     <script src="./js/tab2.js"></script>
     <link href="./css/page.css" rel="stylesheet" type="text/css"/> 
-    <script language="javascript"> 
-       var tabcount = new Array("2","8");
-  </script>
+    <script type="text/javascript"> 
+    var tabcount = new Array("2","8");
+    </script>    
 </head>
 
 <body>
@@ -42,11 +42,6 @@
 
 
   </div>
-  
-   
-   
-   
-    
     <script type="text/javascript">
     // Step:3 conifg ECharts's path, link to echarts.js from current page.
     // Step:3 为模块加载器配置echarts的路径，从当前页面链接到echarts.js，定义所需图表路径
@@ -270,14 +265,14 @@
 </div>
 <!--Start Tabcontent 1 -->
 <div id="tabcontent1">
-  <div id="main" style="height:400px;width:85%;border:1px solid #ccc;padding :10px"></div>
+  <div id="main"></div>
 </div>
 
 <!--End Tabcontent 1-->
 
 <!--Start Tabcontent 2-->
 <div id="tabcontent2">
- <div id="main2" style="height:400px;width:85%;border:1px solid #ccc;padding :10px"></div>
+ <div id="main2"></div>
 </div>
 <!--End Tabcontent 2-->
 </body>

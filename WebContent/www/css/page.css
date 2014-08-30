@@ -1,26 +1,34 @@
-@CHaRSET "UTF-8";
+@charset "utf-8";
 #select
 {
 width:100%;
-height:45px;
+height:46px;
 padding-top:10px;
-margin-bottom:80px;
+margin-bottom:100px;
 background:#008bd3;
--moz-box-shadow: 10px 10px 5px #888888; /* 老的 Firefox */
+-moz-box-shadow: 10px 10px 5px #888888; /* 老的 firefox */
 box-shadow: 10px 10px 5px #888888;
 }
 #main{
--moz-box-shadow: 10px 10px 5px #888888; /* 老的 Firefox */
+-moz-box-shadow: 10px 10px 5px #888888; /* 老的 firefox */
 box-shadow: 10px 10px 5px #888888;
 margin:auto;
+height:420px;
+width:85%;
+border:1px solid #ccc;
+padding :10px;
 }
 #main1,#main2,#main3,#main4,#main5,#main6,#main7,#main8{
--moz-box-shadow: 10px 10px 5px #888888; /* 老的 Firefox */
+-moz-box-shadow: 10px 10px 5px #888888; /* 老的 firefox */
 box-shadow: 10px 10px 5px #888888;
 margin:auto;
+height:420px;
+width:85%;
+border:1px solid #ccc;
+padding :10px;
 }
-body {font-family:微软雅黑; font-size:11px;}
-/*Example for a Menu Style*/
+body {font-family:微软雅黑; font-size:13px;}
+
 .menu {background-color:#008bd3;border-bottom:1px solid #d7d7d7; }
 .menu ul {margin:0px; padding:0px; list-style:none; text-align:center;}
 .menu li {display:inline; line-height:23px;}
@@ -34,121 +42,115 @@ li{ list-style:none; }
 #smenu{width:880px;height:30px;padding:0 10px;background:#008bd3; float:right;}
 #smenu ul{ width:880px;float:right; display:inline;}
 #smenu ul li{ width:86px;float:right; }
-#smenu ul li a{width:86px;height:30px;float:right; font-size:13px; text-align:center; line-height:30px; color:#fff; text-decoration:none;}
+#smenu ul li a{width:86px;height:30px;float:right; font-size:15px; text-align:center; line-height:30px; color:#fff; text-decoration:none;}
 #smenu ul li a:hover{color:#d7d7d7}
 
 
 
 .content {
-	HEIGHT: 777px; POSITION: relative; MaRGIN: 0px auto; WIDTH: 1400px
+	height: 777px; position: relative; margin: 0px auto; width: 1400px
 }
 #header {
-	POSITION: absolute; MaRGIN-LEFT: 200px; Z-INDEX: 999;  WIDTH: 1020px
+	position: absolute; margin-left: 200px; z-index: 999;  width: 1020px
 }
 #header .nav {
-	FLOaT: right; MaRGIN-TOP: 10px; WIDTH: 815px
+	float: right; margin-top: 10px; width: 815px
 }
 #header .nav ul .mainlevel {
-	 FLOaT: left; PaDDING-LEFT: 2px; liNE-HEIGHT: 33px
+	 float: left; padding-left: 2px; line-height: 33px
 }
-* HTML .nav ul .mainlevel {
-	BaCKGROUND: 0px 0px; POSITION: relative
+* html .nav ul .mainlevel {
+	background: 0px 0px; position: relative
 }
 
 #header .nav ul {
-	DISPLaY: table
-}
-#header .nav ul li .nav-a {
-	FONT-SIZE: 13px; HEIGHT: 33px;  ColOR: #ffffff; PaDDING-BOTTOM: 0px; PaDDING-TOP: 0px; PaDDING-LEFT: 20px; TEXT-DECORaTION: none; DISPLaY: inline-block; liNE-HEIGHT: 33px; PaDDING-RIGHT: 20px
+	display: table
 }
 
-#header .nav ul li .nav-a:hover {
-	HEIGHT: 33px;  ColOR: #d7d7d7; PaDDING-BOTTOM: 0px; PaDDING-TOP: 0px; PaDDING-LEFT: 20px; liNE-HEIGHT: 33px; PaDDING-RIGHT: 20px
-}
 #header .nav ul li .nav-a {
-	FONT-SIZE: 13px; HEIGHT: 33px;  ColOR: #ffffff; PaDDING-BOTTOM: 0px; PaDDING-TOP: 0px; PaDDING-LEFT: 20px; TEXT-DECORaTION: none; DISPLaY: inline-block; liNE-HEIGHT: 33px; PaDDING-RIGHT: 20px
+	font-size: 13px; height: 33px;  color: #ffffff; padding-bottom: 0px; padding-top: 0px; padding-left: 20px; text-decoration: none; display: inline-block; line-height: 33px; padding-right: 20px
 }
 #header .nav ul li .nav-a:hover {
-	HEIGHT: 33px; ColOR: #d7d7d7; PaDDING-BOTTOM: 0px; PaDDING-TOP: 0px; PaDDING-LEFT: 20px; liNE-HEIGHT: 33px; PaDDING-RIGHT: 20px
+	height: 33px; color: #d7d7d7; padding-bottom: 0px; padding-top: 0px; padding-left: 20px; line-height: 33px; padding-right: 20px
 }
 #header .nav ul li.first-crl {
-	BaCKGROUND: 0px 0px
+	background: 0px 0px
 }
 #header .nav ul li.first-crl .nav-a {
-	HEIGHT: 38px;  PaDDING-LEFT: 45px
+	height: 38px;  padding-left: 45px
 }
 #header .nav ul li.first-crl .nav-a .current {
-	HEIGHT: 38px;  PaDDING-LEFT: 45px
+	height: 38px;  padding-left: 45px
 }
 #header .nav ul li.first-crl .nav-a:hover {
-	HEIGHT: 38px; PaDDING-LEFT: 45px
+	height: 38px; padding-left: 45px
 }
 #header .nav ul li.end-crl .nav-a {
-	HEIGHT: 38px;  PaDDING-RIGHT: 45px
+	height: 38px;  padding-right: 45px
 }
 #header .nav ul li.end-crl .current.nav-a {
-	HEIGHT: 38px;  PaDDING-RIGHT: 45px
+	height: 38px;  padding-right: 45px
 }
 #header .nav ul li.end-crl .nav-a:hover {
-	HEIGHT: 38px;  PaDDING-RIGHT: 45px
+	height: 38px;  padding-right: 45px
 }
 .mainlevel div {
-	HEIGHT: 85px;  POSITION: absolute; PaDDING-BOTTOM: 15px; PaDDING-TOP: 15px; PaDDING-LEFT: 20px; DISPLaY: none; TOP: 43px; PaDDING-RIGHT: 20px; WIDTH: 430px
+	height: 85px;  position: absolute; padding-bottom: 15px; padding-top: 15px; padding-left: 20px; display: none; top: 43px; padding-right: 20px; width: 440px
 }
 #sub_01 {
-	LEFT: 230px
+	left: 230px
 }
 #sub_02 {
-	LEFT: 326px
+	left: 326px
 }
 #sub_03 {
-	LEFT: 420px
+	left: 420px
 }
 #sub_04 {
-	LEFT: 515px
+	left: 515px
 }
 #sub_05 {
-	RIGHT: 320px
+	right: 320px
 }
 #sub_06 {
-	RIGHT: 225px
+	right: 225px
 }
 #sub_07 {
-	RIGHT: 131px
+	right: 131px
 }
 #sub_08 {
-	RIGHT: 21px
+	right: 21px
 }
 .mainlevel div ol {
-	OVERFLOW: hidden; FLOaT: left; DISPLaY: block; WIDTH: 240px
+	overflow: hidden; float: left; display: block; width: 240px
 }
 .mainlevel div li {
-	BORDER-BOTTOM: #cccccc 1px dashed; liNE-HEIGHT: 27px; WIDTH: 300px
+	border-bottom: #cccccc 1px dashed; line-height: 28px; width: 300px
 }
 .mainlevel div li a {
-	HEIGHT: 27px; ColOR: #3b3b3b; PaDDING-LEFT: 10px; DISPLaY: inline-block; liNE-HEIGHT: 27px; WIDTH: 79px
+	height: 28px; color: #3b3b3b; padding-left: 10px; display: inline-block; line-height: 28px; width: 79px
 }
 .mainlevel div li a:hover {
-	ColOR: #172053
+	color: #172053
 }
 .mainlevel div .nav-img {
-	FLOaT: right; DISPLaY: inline-block
+	float: right; display: inline-block
 }
 .mainlevel div span img {
-	BORDER-TOP: #ffffff 3px solid; BORDER-RIGHT: #ffffff 3px solid; BORDER-BOTTOM: #ffffff 3px solid; BORDER-LEFT: #ffffff 3px solid
+	border-top: #ffffff 3px solid; border-right: #ffffff 3px solid; border-bottom: #ffffff 3px solid; border-left: #ffffff 3px solid
 }
-OL {
-	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+ol {
+	padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px
 }
-UL {
-	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+ul {
+	padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px
 }
-LI {
-	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+li {
+	padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px
 }
-DIV {
-	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+div {
+	padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px
 }
-LI {
-	LIST-STYLE-TYPE: none; OVERFLOW: hidden
+li {
+	list-style-type: none; overflow: hidden
 }

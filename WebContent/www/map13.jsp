@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>ECharts</title>
+    <title>各省月度CPI</title>
     <script src="js/esl.js"></script>
      <link href="./css/page.css" rel="stylesheet" type="text/css"/>
      <script type="text/javascript" src="./asset/js/jquery.min.js"></script>
@@ -16,7 +16,8 @@
 </head>
 
 <body>
-     <div id ="select" ><div id="header">
+     <div id ="select" >
+     <div id="header">
 <div id="nav" class="nav">
 <ul>
   <li id="mainlevel_01" class="first-crl mainlevel">
@@ -52,9 +53,9 @@
     JSONTest jsTest=new JSONTest();
     String []cities=new String[]{"北京","天津","河北","山西","内蒙古","辽宁","吉林","黑龙江","上海","江苏","浙江","安徽","福建","江西","山东","河南","湖北","湖南","广东","广西","海南","重庆","四川","贵州","云南","西藏","陕西","甘肃","青海","宁夏","新疆"};
     %>
-<a href="./mix3.jsp">点此查看省市级价格分布情况</a>
+
 <br/><br/>
-     <div id="main" style="height:400px;width:80%;border:1px solid #ccc;padding :10px"></div>
+     <div id="main"></div>
      <div id ="bottom" style="text-align:right"><a href="./index.html"><img src="img/图标2.png" title="返回首页"></img></a></div>
     <script type="text/javascript">
     
@@ -108,7 +109,7 @@
             	                }
             	            },
             	            dataRange: {
-            	                min: 99,
+            	            	min: 99,
             	                max : 105,
             	                text:['高','低'],           // 文本，默认为数值文本
             	                calculable : true,

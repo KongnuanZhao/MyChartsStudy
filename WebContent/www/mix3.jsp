@@ -48,7 +48,7 @@
    <a class="nav-a" href="#">关于更多</a> </li>
   </ul></div>
   </div><!-- end of the header --></div>
-     <div id="main" style="height:400px;width:80%;border:1px solid #ccc;padding :10px"></div>
+     <div id="main"></div>
      <div id ="bottom" style="text-align:right"><a href="./index.html"><img src="img/图标2.png" title="返回首页"></img></a></div>
     <script type="text/javascript">
     require.config({

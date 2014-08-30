@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Insert title here</title>
+<title>价格对比</title>
 </head>
   <link href="./css/page.css" rel="stylesheet" type="text/css"/> 
    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css"/> 
@@ -62,8 +62,6 @@
             
  <br/>    
  <iframe id="id_iframe" name="id_iframe" src="bar1.jsp" width="100%" height="520px"></iframe> 
-
-
 <div id ="bottom" style="text-align:right"><a href="./index.html"><img src="img/图标2.png" title="返回首页"></img></a></div>
 </body>
 
