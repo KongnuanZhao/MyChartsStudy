@@ -39,7 +39,7 @@
     <li><a href="./map13.jsp">各省月度CPI</a></li>
     </ol><span class="nav-img"><img src="./img/pic6.png"/> </span></div></li>
   <li id="mainlevel_04" class="mainlevel">
-  <a class="nav-a" href="./map11.jsp" target="_blank">商品进出口情况</a> </li>
+  <a class="nav-a" href="./form3.jsp" target="_blank">商品流通情况</a> </li>
   <li id="mainlevel_05" class="mainlevel">
   <a class="nav-a" href="./map9.jsp" target="_blank">各农作物产地</a> </li>
   <li id="mainlevel_07" class="mainlevel">

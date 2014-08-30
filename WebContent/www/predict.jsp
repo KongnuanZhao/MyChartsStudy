@@ -38,7 +38,7 @@
     <li><a href="./map13.jsp">各省月度CPI</a></li>
     </ol><span class="nav-img"><img src="./img/pic6.png"/> </span></div></li>
   <li id="mainlevel_04" class="mainlevel">
-  <a class="nav-a" href="./map11.jsp" target="_blank">商品进出口情况</a> </li>
+  <a class="nav-a" href="./form3.jsp" target="_blank">商品流通情况</a></li>
   <li id="mainlevel_05" class="mainlevel">
   <a class="nav-a" href="./map9.jsp" target="_blank">各农作物产地</a> </li>
   <li id="mainlevel_07" class="mainlevel">
@@ -101,7 +101,7 @@
             	        {
             	            type : 'category',
             	            boundaryGap : false,
-            	            data : ['1','2','3','4','5','6','7','8']
+            	            data : ['2014-08-01','2014-08-02','2014-08-03','2014-08-04','2014-08-05','2014-08-06','2014-08-07','2014-08-08']
             	        }
             	    ],
             	    yAxis : [
@@ -116,7 +116,7 @@
             	        {
             	            name:'预测价格',
             	            type:'line',
-            	            data:[11, 11, 15, 13, 12, 13, 10],
+            	            data:[11, 11, 15, 13.1, 12, 13, 10],
             	            markPoint : {
             	                data : [
             	                    {type : 'max', name: '最大值'},
@@ -132,7 +132,7 @@
             	        {
             	            name:'实际价格',
             	            type:'line',
-            	            data:[0,0, 2, 5, 3, 2],
+            	            data:[10.5,11.2, 14.5, 13, 13, 10.2],
             	            markPoint : {
             	                data : [
             	                    {name : '周最低', value : -2, xAxis: 1, yAxis: -1.5}

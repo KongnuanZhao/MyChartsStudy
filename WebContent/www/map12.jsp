@@ -39,7 +39,7 @@
     <li><a href="./map13.jsp">各省月度CPI</a></li>
     </ol><span class="nav-img"><img src="./img/pic6.png"/> </span></div></li>
   <li id="mainlevel_04" class="mainlevel">
-  <a class="nav-a" href="./map11.jsp" target="_blank">商品进出口情况</a> </li>
+  <a class="nav-a" href="./form3.jsp" target="_blank">商品流通情况</a> </li>
   <li id="mainlevel_05" class="mainlevel">
   <a class="nav-a" href="./map9.jsp" target="_blank">各农作物产地</a> </li>
   <li id="mainlevel_07" class="mainlevel">
@@ -89,13 +89,13 @@ require(
       
 var option={
     title : {
-        text : '大潍坊',
-        subtext: '找你找的好辛苦',
+        text : '潍坊商品价格',
+        subtext: '数据来自潍坊物价局',
         sublink: ''
     },
     tooltip : {
         trigger: 'item',
-        formatter: '{b}<br/>{c} (p / km2)'
+        formatter: '{b}<br/>{c} (元/斤)'
     },
     toolbox: {
         show : true,
@@ -110,16 +110,16 @@ var option={
         }
     },
     dataRange: {
-        min: 800,
-        max: 50000,
+        min: 1,
+        max: 6,
         text:['High','Low'],
         realtime: false,
         calculable : true,
-        color: ['orangered','yellow','lightskyblue']
+       
     },
     series : [
         {
-            name: '大潍坊',
+            name: '潍坊商品价格',
             type: 'map',
             mapType: 'HK', // 自定义扩展图表类型
             itemStyle:{
@@ -127,18 +127,18 @@ var option={
                 emphasis:{label:{show:true}}
             },
             data:[
-                {name: '安丘市', value: 20057.34},
-                {name: '昌乐县', value: 15477.48},
-                {name: '昌邑市', value: 31686.1},
-                {name: '坊子区', value: 6992.6},
-                {name: '高密市', value: 44045.49},
-                {name: '寒亭区', value: 40689.64},
-                {name: '奎文区', value: 37659.78},
-                {name: '临朐县', value: 45180.97},
-                {name: '青州市', value: 55204.26},
-                {name: '寿光市', value: 21900.9},
-                {name: '潍城区', value: 4918.26},
-                {name: '诸城市', value: 5881.84}
+                {name: '安丘市', value: 2.34},
+                {name: '昌乐县', value: 1.48},
+                {name: '昌邑市', value: 3.1},
+                {name: '坊子区', value: 6.6},
+                {name: '高密市', value: 4.49},
+                {name: '寒亭区', value: 4.64},
+                {name: '奎文区', value: 3.78},
+                {name: '临朐县', value: 4.97},
+                {name: '青州市', value: 5.26},
+                {name: '寿光市', value: 2.9},
+                {name: '潍城区', value: 4.26},
+                {name: '诸城市', value: 5.84}
                 
             ],
           
