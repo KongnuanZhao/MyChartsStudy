@@ -94,6 +94,13 @@
           	        {
           	            name:'预测价格',
           	            type:'line',
+          	            itemStyle:{//设置为虚线
+                          normal:{
+                              lineStyle:{
+                                  type: 'dashed'
+                              }
+                          }
+                         },
           	            data:<%=jsTest.Arraylistjson(jsTest.SelectCabPrePrice("prediction"))%>,
           	            markPoint : {
           	                data : [

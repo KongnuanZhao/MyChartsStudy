@@ -154,3 +154,13 @@ div {
 li {
 	list-style-type: none; overflow: hidden
 }
+
+
+.yujing td{
+	width:200px;
+	font-size:15px;
+	
+}
+#titlet td{
+	font-weight:bold;
+}

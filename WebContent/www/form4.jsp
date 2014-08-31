@@ -1,3 +1,6 @@
+<%@page import="java.math.BigDecimal"%>
+<%@page import="java.util.List"%>
+<%@page import="java.util.ArrayList"%>
 <%@page import="org.apache.naming.java.javaURLContextFactory"%>
 <%@page import="tools.*"%>
 <%@page import="net.sf.json.*"%>
@@ -7,7 +10,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>商品流通情况</title>
+<title>价格预测</title>
 </head>
   <link href="./css/page.css" rel="stylesheet" type="text/css"/> 
    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css"/> 
@@ -24,7 +27,7 @@
   <a class="nav-a"   href="./index.html">首页</a> 
   </li>
   <li id="mainlevel_02" class="mainlevel">
-  <a class="nav-a">价格预测</a> 
+  <a class="nav-a">价格分析</a> 
   <div id="sub_02">
   <ol>
     <li><a href="./datazoom1.jsp" target="_blank">价格走势</a></li>
@@ -55,7 +58,74 @@
    // double [] temp =jsTest.SelectPrice();
     %>
 
-  <form method="post" action ="predict.jsp" target="id_iframe">
+<!-- 价格预警 -->
+<div class="menu">
+<ul>
+<li><a href="#"  title="" id="anotherlink1">价格预警</a></li>
+</ul>
+</div>
+<div id="anothercontent1" >
+ <form method="post" action ="">
+ <b>请选择地域：</b>&nbsp;&nbsp;
+  <input type="radio"  name="colname" checked value="佳乐家福寿店"/>佳乐家福寿店
+   <input type="radio"  name="colname"  value="大润发潍一广场店"/>大润发潍一广场店
+    <input type="radio"  name="colname"  value="凤凰商贸城"/>凤凰商贸城
+     <input type="radio"  name="colname"  value="南门农贸市场"/>南门农贸市场
+      <input type="radio"  name="colname"  value="南下河市场"/> 南下河市场
+      <input type="radio"  name="colname"  value="万家福北宫店"/> 万家福北宫店
+      <input type="radio"  name="colname"  value="新华路佳乐家"/> 新华路佳乐家
+  <input type="submit" name="button">
+  </form>
+<center>
+<h3>(每小时更新数据)</h3>
+<table border=0 class="yujing">
+<tr><td colspan="5" align="center"><img alt="" src="./img/yujing.png"></td></tr>
+<tr id="titlet"><td width="200px">商品名称</td><td>上周平均价格</td><td>最新价格</td><td>涨跌</td><td>地域</td></tr>
+<%  List<Goods> list=jsTest.Yujing(); 
+    for(int i=0;i<list.size();i++){
+    	Goods goods=list.get(i);
+    	out.print("<tr>");
+    	out.print("<td>"+goods.getGoodsname()+"</td>");
+    	out.print("<td>"+goods.getLstavgprice()+"</td>");
+    	out.print("<td>"+goods.getCurrprice()+"</td>");
+    	float index=goods.getCurrprice()-goods.getLstavgprice();
+    	BigDecimal b=new BigDecimal(index);
+    	index=b.setScale(2,BigDecimal.ROUND_HALF_UP).floatValue();
+    	if(index<0){
+    		if(index < -0.5){   			
+    			out.print("<td><img src='./img/arrow_down_r.png'>"+index+"</td>");	
+    		}else{
+    			out.print("<td><img src='./img/arrow_down.png'>"+index+"</td>");
+    		}    			
+    	}else if(index>0){
+    		if(index>=0.5){   			
+    			out.print("<td><img src='./img/arrow_top_r.png'>"+index+"</td>");	
+    		}else{
+    		    out.print("<td><img src='./img/arrow_top.png'>"+index+"</td>");
+    		}
+    	}else{    		
+    		out.print("<td><img src='./img/action_remove.png'>"+index+"</td>");
+    	}   	
+    	out.print("<td>"+goods.getPlaceString()+"</td>");
+    	out.print("</tr>");
+    	
+    }
+
+%>
+
+</table>
+</center>
+<br><br>
+</div>
+<!-- 价格预测 -->
+<div class="menu">
+<ul>
+<li><a href="#"  title="" id="anotherlink1">价格预测</a></li>
+</ul>
+</div>
+<div id="anothercontent1" style="height: 550px">
+<br>
+ <form method="post" action ="predict.jsp" target="id_iframe">
     <%for(int k=0;k<jsTest.SelectGoodsname().length;k++) {
     if(k==0){%>
      <input type="radio"  name="colname" checked value="<%=jsTest.SelectGoodsname()[k]%>">
@@ -68,7 +138,10 @@
   </form>
             
  <br/>    
+ 
  <iframe frameborder="no" id="id_iframe" name="id_iframe" src="predict.jsp" width="100%" height="520px"></iframe> 
+</div>
+ 
 <div id ="bottom" style="text-align:right"><a href="./index.html"><img src="img/图标2.png" title="返回首页"></img></a></div>
 </body>
 

@@ -23,7 +23,7 @@ public class JSONTest {
 	}
 	public JSONArray Arraylistjson(ArrayList<String> arr){
 		JSONArray jsonArray=JSONArray.fromObject(arr);
-		System.out.println(jsonArray);
+		//System.out.println(jsonArray);
 		return jsonArray;
 	}
 	public JSONArray ArraylistFjson(ArrayList<Float> arr){
@@ -239,5 +239,30 @@ public class JSONTest {
 		return pricelist;
 		
 	}
+    //获取价格预警数据
+    public  ArrayList<Goods> Yujing(){
+ 		DBConn dbConn=new DBConn();
+ 		ArrayList<Goods> goodslist=new ArrayList<Goods>();
+ 		String sql="select * from yujingdata where 采价日期='2014-07-30' and 报告单位='佳乐家福寿店'";
+
+ 		try {
+ 			dbConn.getConn();
+ 			ResultSet rSet=dbConn.executeQuery(sql,null);			
+ 			while(rSet.next()){
+ 				Goods goods=new Goods();
+ 				goods.goodsname=rSet.getString("商品名称");
+ 				goods.currprice=rSet.getFloat("本期价格");
+ 				goods.lstavgprice=rSet.getFloat("average(本期价格)");
+ 				goods.placeString=rSet.getString("报告单位");
+ 				goodslist.add(goods);
+ 			}
+ 			dbConn.closeAll();
+ 		}  catch (Exception e) {
+ 			// TODO Auto-generated catch block
+ 			e.printStackTrace();
+ 		}
+ 		return goodslist;
+ 		
+ 	}
     
 }
